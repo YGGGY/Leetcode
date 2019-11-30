@@ -103,10 +103,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="initial test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="738" y="123" key="CommitChangelistDialog2" timestamp="1575092440779">
+    <state x="343" y="49" width="1246" height="845" key="CommitChangelistDialog2" timestamp="1575094435911">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="738" y="123" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1575092440779" />
+    <state x="343" y="49" width="1246" height="845" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1575094435911" />
     <state width="491" height="267" key="GridCell.Tab.0.bottom" timestamp="1575093634857">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -123,9 +123,9 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="491" height="267" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575093634857" />
-    <state x="746" y="246" key="Vcs.Push.Dialog.v2" timestamp="1575092520455">
+    <state x="746" y="246" key="Vcs.Push.Dialog.v2" timestamp="1575094523788">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="746" y="246" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1575092520454" />
+    <state x="746" y="246" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1575094523788" />
   </component>
 </project>
