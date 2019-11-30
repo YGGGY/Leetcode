@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="">
+    <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="test3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -81,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575092117403</updated>
       <workItem from="1575092119748" duration="2248000" />
-      <workItem from="1575153209466" duration="621000" />
+      <workItem from="1575153209466" duration="814000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
@@ -104,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575094584094</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test3">
+      <created>1575154004000</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575154004000</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,13 +121,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial test" />
     <MESSAGE value="test22" />
-    <option name="LAST_COMMIT_MESSAGE" value="test22" />
+    <MESSAGE value="test3" />
+    <option name="LAST_COMMIT_MESSAGE" value="test3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="343" y="49" width="1246" height="845" key="CommitChangelistDialog2" timestamp="1575153966513">
+    <state x="343" y="49" width="1246" height="845" key="CommitChangelistDialog2" timestamp="1575154148078">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="343" y="49" width="1246" height="845" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1575153966513" />
+    <state x="343" y="49" width="1246" height="845" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1575154148078" />
     <state width="491" height="267" key="GridCell.Tab.0.bottom" timestamp="1575094850745">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -136,9 +145,13 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="491" height="267" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575094850745" />
-    <state x="746" y="246" key="Vcs.Push.Dialog.v2" timestamp="1575094523788">
+    <state x="478" y="155" key="SettingsEditor" timestamp="1575154089918">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="746" y="246" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1575094523788" />
+    <state x="478" y="155" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1575154089918" />
+    <state x="746" y="246" key="Vcs.Push.Dialog.v2" timestamp="1575154040524">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="746" y="246" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1575154040524" />
   </component>
 </project>
