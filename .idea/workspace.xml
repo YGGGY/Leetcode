@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/array/test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode/array/test.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/array/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575092117403</updated>
-      <workItem from="1575092119748" duration="1135000" />
+      <workItem from="1575092119748" duration="1798000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
