@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/array/RemoveDuplicateFromSortedArrayII_080.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/RemoveElement_027.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/RemoveElement_027.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +28,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UK4nC7mAwQnmxk2mIVqIJvwlxY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -87,7 +89,8 @@
       <workItem from="1575154170275" duration="76000" />
       <workItem from="1575173471390" duration="154000" />
       <workItem from="1575402303572" duration="3035000" />
-      <workItem from="1575574974695" duration="1402000" />
+      <workItem from="1575574974695" duration="1565000" />
+      <workItem from="1575662214073" duration="1368000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
