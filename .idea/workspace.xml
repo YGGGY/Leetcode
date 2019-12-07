@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/RemoveDuplicateFromSortedArrayII_080.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/RotateArray_190.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +90,8 @@
       <workItem from="1575173471390" duration="154000" />
       <workItem from="1575402303572" duration="3035000" />
       <workItem from="1575574974695" duration="1565000" />
-      <workItem from="1575662214073" duration="1368000" />
+      <workItem from="1575662214073" duration="1408000" />
+      <workItem from="1575739135686" duration="1188000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
