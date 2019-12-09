@@ -10,9 +10,10 @@ public class GasStation_134 {
             return -1;
         //有解后
         int start = 0;
+        int curGain = 0;
         tank = 0;
         for(int i=0; i<gas.length; i++){
-            int curGain = gas[i] - cost[i];
+            curGain = gas[i] - cost[i];
             if(tank + curGain < 0){
                 start = i + 1;
                 tank = 0;
