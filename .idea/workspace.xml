@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="" />
+    <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/array/GasStation_134.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +93,8 @@
       <workItem from="1575662214073" duration="1408000" />
       <workItem from="1575739135686" duration="1533000" />
       <workItem from="1575839947589" duration="994000" />
-      <workItem from="1575869700798" duration="1747000" />
+      <workItem from="1575869700798" duration="2243000" />
+      <workItem from="1575915795151" duration="1188000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
