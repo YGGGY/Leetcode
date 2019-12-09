@@ -27,7 +27,7 @@ public class BullsAndCows_299 {
         int bulls = 0;
         int cows = 0;
         int[] number = new int[10];
-        //String.toCharArray()将string转成char
+        //String.toCharArray()将string转成char类型的array
         char[] secret = secrets.toCharArray();
         char[] guess = guesses.toCharArray();
 
