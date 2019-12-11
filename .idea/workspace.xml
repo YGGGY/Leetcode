@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/FindTheCelebrity_277.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/H_index_274.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,9 @@
       <workItem from="1575839947589" duration="994000" />
       <workItem from="1575869700798" duration="2243000" />
       <workItem from="1575915795151" duration="1716000" />
-      <workItem from="1576009696585" duration="728000" />
+      <workItem from="1576009696585" duration="822000" />
+      <workItem from="1576090742793" duration="571000" />
+      <workItem from="1576096842380" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
