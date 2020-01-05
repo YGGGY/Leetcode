@@ -1,6 +1,6 @@
 package array;
 
-public class RotateArray_190 {
+public class RotateArray_189 {
     public void rotate(int[] nums, int k) {
         //1234567 k=3
         k = k % nums.length;
