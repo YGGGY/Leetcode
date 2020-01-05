@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/RemoveElement_027.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/RemoveElement_027.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,7 @@
       <workItem from="1576096842380" duration="948000" />
       <workItem from="1576190892431" duration="3000" />
       <workItem from="1578086999017" duration="695000" />
-      <workItem from="1578168410700" duration="2334000" />
+      <workItem from="1578168410700" duration="2579000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
@@ -163,10 +162,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="797" y="188" key="#Notifications/0.23.1680.1027@0.23.1680.1027" timestamp="1578087092160" />
-    <state x="343" y="49" width="1246" height="845" key="CommitChangelistDialog2" timestamp="1575408958074">
+    <state x="343" y="49" width="1236" height="845" key="CommitChangelistDialog2" timestamp="1578258291284">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="343" y="49" width="1246" height="845" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1575408958074" />
+    <state x="343" y="49" width="1236" height="845" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1578258291284" />
     <state width="491" height="267" key="GridCell.Tab.0.bottom" timestamp="1575094850745">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

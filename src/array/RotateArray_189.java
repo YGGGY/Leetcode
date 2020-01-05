@@ -20,3 +20,4 @@ public class RotateArray_189 {
         }
     }
 }
+//用while作为判定条件非常精妙，我居然还想着怎么计算来选择i，非常蠢
