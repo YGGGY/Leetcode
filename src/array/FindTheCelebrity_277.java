@@ -21,3 +21,6 @@ public class FindTheCelebrity_277 {
       boolean knows(int a, int b); */
     }
 }
+//第一个for循环找candidate的精妙之处在于，
+//candidate前面check过的i，因为candidate不认识i，所以i一定不会是candidate，
+//所以可以一路往下check，不需要从头开始重新check
