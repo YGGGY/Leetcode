@@ -26,7 +26,7 @@ public class BullsAndCows_299 {
     public String getHint1(String secrets, String guesses) {
         int bulls = 0;
         int cows = 0;
-        int[] number = new int[10];
+        int[] number = new int[10];//对应0-9的数字
         //String.toCharArray()将string转成char类型的array
         char[] secret = secrets.toCharArray();
         char[] guess = guesses.toCharArray();
@@ -38,10 +38,10 @@ public class BullsAndCows_299 {
             if(s == g) bulls++;
 
             else{
-                if(number[s] < 0) cows++;
-                if(number[g] > 0) cows++;
-                number[s]++;
-                number[g]--;
+                if(number[s] < 0) cows++; // <0说明之前有guess过
+                if(number[g] > 0) cows++; // >0说明之前secret有出现过
+                number[s]++; //该位上的数在secret出现次数+1
+                number[g]--; //该位上的数在guess出现次数+1
             }
         }
         return bulls+"A"+cows+"B";
