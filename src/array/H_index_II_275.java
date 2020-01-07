@@ -7,16 +7,20 @@ public class H_index_II_275 {
         int right = length - 1;
         //binary search
         while(left <= right){  //注意这里要带=
-            int middle = (left + right)/ 2;
-            if(citations[middle] == length - middle)
-                return length - middle;
-            else if(citations[middle] < length - middle)// citations[index] < h
-                left = middle + 1;
-            else //citations[middle] > lenght - middle
-                right = middle -1;
+            int mid = (left + right)/ 2;
+            if(citations[mid] == length - mid)
+                return length - mid; //mid正好是要找的index
+            else if(citations[mid] < length - mid)// citations[index] < h
+                left = mid + 1; //往后边查
+            else //citations[mid] > length - mid
+                right = mid -1; //往前面查
                 //这个时候其实已经得到一个符合条件的h了，但是继续往前查找是为了找有没有更大的h
         }
         return length - left;
+        //left>right跳出循环说明，在left=middle+1前，left==right，已经找到头了
+        // 为什么取left==right时的后面一个index是对的呢？
+        // 因为造成left==right前，要么是right = mid-1，这时这个mid是可行的中最左边的
+        //                      要么是left = mid+1，一直往后查已经查无可查了
     }
 }
 // 整体的做法是用binary search
