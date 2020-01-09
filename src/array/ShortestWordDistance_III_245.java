@@ -11,7 +11,7 @@ public class ShortestWordDistance_III_245 {
                 i1 = i;
             if(words[i].equals(word2)){
                 if(word1.equals(word2))
-                    i1 = i2;
+                    i1 = i2; //i1用来记录在前的word，i2用来记录最新的
                 i2 = i;
             }
             if(i1 > -1 && i2 > -1)
