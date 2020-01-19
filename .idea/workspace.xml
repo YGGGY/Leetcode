@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/ShortestWordDistance_III_245.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +104,8 @@
       <workItem from="1578352256319" duration="2865000" />
       <workItem from="1578428285324" duration="4626000" />
       <workItem from="1578515109610" duration="3245000" />
-      <workItem from="1578600215559" duration="1587000" />
+      <workItem from="1578600215559" duration="1691000" />
+      <workItem from="1579464921376" duration="1327000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>

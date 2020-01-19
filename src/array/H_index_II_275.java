@@ -10,7 +10,7 @@ public class H_index_II_275 {
             int mid = (left + right)/ 2;
             if(citations[mid] == length - mid)
                 return length - mid; //mid正好是要找的index
-            else if(citations[mid] < length - mid)// citations[index] < h
+            else if(citations[mid] < length - mid)
                 left = mid + 1; //往后边查
             else //citations[mid] > length - mid
                 right = mid -1; //往前面查
@@ -25,8 +25,8 @@ public class H_index_II_275 {
 }
 // 整体的做法是用binary search
 // h_index是h个paper都 ≥ h这个数
-// 从后往前的h个是 h = length-index 这么多个，这h个都要 ≥ h
-// 因为已经是sorted的，所以只要 第一个paper的数 ≥ h 就行
+// 从后往前的有 length-index 这么多个，这些都要 ≥ h
+// 因为已经是sorted的，所以只要 第一个paper的citation数 ≥ h 就行
 // 第一个paper的数是citations[index]，所以要citations[index] ≥ length-index
 // 题目即为，找一个index，使得citations[index] ≥ length-index。通过binary search找
 
