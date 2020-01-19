@@ -17,7 +17,7 @@ public class H_index_II_275 {
                 //这个时候其实已经得到一个符合条件的h了，但是继续往前查找是为了找有没有更大的h
         }
         return length - left;
-        //left>right跳出循环说明，在left=middle+1前，left==right，已经找到头了
+        //left>right跳出循环说明，在上一次的left=middle+1前，left==right，已经找到头了
         // 为什么取left==right时的后面一个index是对的呢？
         // 因为造成left==right前，要么是right = mid-1，这时这个mid是可行的中最左边的
         //                      要么是left = mid+1，一直往后查已经查无可查了
