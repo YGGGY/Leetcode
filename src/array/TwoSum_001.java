@@ -4,7 +4,7 @@ import java.util.*;
 public class TwoSum_001 {
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
-        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 
         for(int i = 0; i < nums.length; i++){
             //对每个值，找他相对target的补数在已有的map中存不存在
