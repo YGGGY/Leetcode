@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/MoveZeroes_283.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ReplaceElementsWithGreatestElementOnRightSide_1299.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/TwoSum_001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +119,7 @@
       <workItem from="1580004590161" duration="831000" />
       <workItem from="1580072439642" duration="123000" />
       <workItem from="1580504588315" duration="647000" />
-      <workItem from="1580931058836" duration="2081000" />
+      <workItem from="1580931058836" duration="2726000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>

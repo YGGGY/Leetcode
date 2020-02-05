@@ -14,6 +14,7 @@ public class TwoSum_001 {
                 return result;
             }
             map.put(nums[i], i);//nums[index]作为key，index作为value
+                                //因为给的api是找key存不存在的
         }
         return result;
     }
