@@ -22,7 +22,26 @@ public class ProductOfArrayExceptSelf_238 {
         result[length-1] = left[length-2];
         return result;
     }
-}
 
 //the product of the other and be get by multiply left part and right part
 //use arrays left[] and right[] to record the product of left part and right part
+
+///To save space
+    public int[] productExceptSelf_2(int[] nums) {
+        int length = nums.length;
+        int[] result = new int[length];
+
+//same with the former array
+        for(int i = 1; i < length; i++){
+            result[i] = result[i-1] * nums[i];
+        }
+//use int r to save the right part product
+        int r = 1;
+        for(int i = length-1; i >=0; i--){
+            result[i] = result[i] * r;
+            r *= nums[i];
+        }
+
+        return result;
+    }
+}
