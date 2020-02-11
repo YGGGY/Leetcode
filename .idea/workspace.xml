@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/array/SearchA2DMatrix_74.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/ValidPalindrome_125.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +123,7 @@
       <workItem from="1580931058836" duration="3460000" />
       <workItem from="1581016309744" duration="283000" />
       <workItem from="1581101568275" duration="490000" />
-      <workItem from="1581102507456" duration="1310000" />
+      <workItem from="1581102507456" duration="2398000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
@@ -214,5 +214,9 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="746" y="246" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1575408965995" />
+    <state x="193" y="305" width="689" height="462" key="find.popup" timestamp="1581453596353">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="193" y="305" width="689" height="462" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1581453596353" />
   </component>
 </project>
