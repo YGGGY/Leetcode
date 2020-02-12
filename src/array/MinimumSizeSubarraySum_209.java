@@ -10,7 +10,8 @@ public class MinimumSizeSubarraySum_209 {
         for(int i = 0; i < length; i++){
             sum += nums[i];
             //找到符合的sum后，开始收缩left
-            while(sum >= s && left <= i){
+            while(sum >= s && left <= i){//不要忘了检测left有没有超过i
+                                         //且注意left可以等于i
                 min = Math.min(min, i - left + 1);
                 sum -= nums[left];
                 left++;
