@@ -24,3 +24,4 @@ public class ValidPalindrome_125 {
         return true;
     }
 }
+//two pointer
