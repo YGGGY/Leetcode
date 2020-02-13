@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/String/FindAllAnagramsInAString_438.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/LongestCommonPrefix_014.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/LongestUncommonSubsequence_I_521.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +124,7 @@
       <workItem from="1580931058836" duration="3460000" />
       <workItem from="1581016309744" duration="283000" />
       <workItem from="1581101568275" duration="490000" />
-      <workItem from="1581102507456" duration="7674000" />
+      <workItem from="1581102507456" duration="9765000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
