@@ -26,7 +26,7 @@ public class FindAllAnagramsInAString_438 {
             else
                 sCount.put(ch, 1);
             //slide 1 step
-            if(i >= len_p){
+            if(i >= len_p){//这一步能让window的size为p的长度
                 ch = s.charAt(i - len_p);//删去window的前一个数
                 if(sCount.get(ch) == 1)
                     sCount.remove(ch);
