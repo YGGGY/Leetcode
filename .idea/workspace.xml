@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/String/ExpressiveWords_809.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/String/ExpressiveWords_809.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/String/ExpressiveWords_809.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="Debugger_Data_Views_Java" />
   </component>
   <component name="RunManager">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -123,7 +123,7 @@
       <workItem from="1580931058836" duration="3460000" />
       <workItem from="1581016309744" duration="283000" />
       <workItem from="1581101568275" duration="490000" />
-      <workItem from="1581102507456" duration="10170000" />
+      <workItem from="1581102507456" duration="12449000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
@@ -206,10 +206,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="491" height="267" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575094850745" />
-    <state x="683" y="63" key="SettingsEditor" timestamp="1580072531258">
+    <state x="611" y="62" key="SettingsEditor" timestamp="1581632481871">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="683" y="63" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1580072531258" />
+    <state x="611" y="62" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1581632481871" />
     <state x="746" y="246" key="Vcs.Push.Dialog.v2" timestamp="1575408965995">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
