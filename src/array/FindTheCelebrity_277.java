@@ -19,6 +19,7 @@ public class FindTheCelebrity_277 {
     private boolean knows(int a, int b) {
         /* The knows API is defined in the parent class Relation.
       boolean knows(int a, int b); */
+        return true;
     }
 }
 //第一个for循环找candidate的精妙之处在于，
