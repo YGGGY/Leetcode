@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/ReverseNodesInKGroup_025.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +124,7 @@
       <workItem from="1581016309744" duration="283000" />
       <workItem from="1581101568275" duration="490000" />
       <workItem from="1581102507456" duration="16773000" />
-      <workItem from="1582133141760" duration="10800000" />
+      <workItem from="1582133141760" duration="12598000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>

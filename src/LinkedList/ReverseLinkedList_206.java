@@ -27,7 +27,7 @@ public class ReverseLinkedList_206 {
         //base case
         if(head == null || head.next == null)   return head;
 
-        ListNode p = reverseList(head.next);//分成head和其他部分，递归其他部分
+        ListNode p = reverseList2(head.next);//分成head和其他部分，递归其他部分
         head.next.next = head;//将head->head.next（其他部分的head）
                              // 变成head<-head.next（箭头反转）
         head.next = null;//head变成tail
