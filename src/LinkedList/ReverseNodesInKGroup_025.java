@@ -26,5 +26,6 @@ public class ReverseNodesInKGroup_025 {
         return prev;//prev是此时sub的head
     }
 }
-
+//所有几个几个一组reverse的做法的通解
+//024（按pair reverse）做法一样
 
