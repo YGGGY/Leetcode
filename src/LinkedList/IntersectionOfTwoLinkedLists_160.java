@@ -10,6 +10,9 @@ public class IntersectionOfTwoLinkedLists_160 {
         while(a != b){
             a = (a != null)? a.next : headB;
             b = (b != null)? b.next : headA;
+            //注意这里不能用a.next != null来判断
+            //当两个LinkedList没有intersection的时候，a和b同时到达结尾的null，此时a==b
+            //不能跳过这个null
         }
         return a;
     }
