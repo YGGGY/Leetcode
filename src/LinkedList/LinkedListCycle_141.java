@@ -5,7 +5,8 @@ public class LinkedListCycle_141 {
         if(head == null || head.next == null)   return false;
 
         ListNode slow = head;
-        ListNode fast = head.next;
+        ListNode fast = head.next;//注意fast设为head.next 因为我们要套圈
+                                //但是在middle of LinkedList时fast=head，因为要两倍slow
 
         while(slow != fast){
             if(fast == null || fast.next == null)
