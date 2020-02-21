@@ -8,8 +8,10 @@ public class ReverseNodesInKGroup_025 {
         while(count < k) {
             if (pointer == null)
                 return head;//less then k nodes left, return head of sub
-            pointer = pointer.next;
-            count++;
+            else {
+                pointer = pointer.next;
+                count++;
+            }
         }
 
         ListNode prev = reverseKGroup(pointer, k);
