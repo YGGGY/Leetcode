@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/FibonacciNumber_509.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/PathSum_112.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/WordSearch_079.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/LetterCombinationsOfAPhoneNumber_017.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/LetterCombinationsOfAPhoneNumber_017.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +128,9 @@
       <workItem from="1581102507456" duration="16773000" />
       <workItem from="1582133141760" duration="14146000" />
       <workItem from="1582591196866" duration="3350000" />
-      <workItem from="1583184700761" duration="757000" />
+      <workItem from="1583184700761" duration="3506000" />
+      <workItem from="1583203608092" duration="856000" />
+      <workItem from="1584123618796" duration="432000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>

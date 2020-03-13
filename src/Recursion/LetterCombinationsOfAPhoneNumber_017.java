@@ -17,17 +17,19 @@ public class LetterCombinationsOfAPhoneNumber_017 {
 
     //recursion function
     public void backtrack(String combination, String next_digits){
-        if(next_digits.length() == 0)
+        if(next_digits.length() == 0)//no number to be recurse, just add the new string to output
             output.add(combination);
         else{
             String digit = next_digits.substring(0,1);//get the first num (a string)
             String letters = map.get(digit);//get the alphbets in string related to the num
-            for(int i = 0; i< letters.length(); i++){//concatenate all alphabets related to the num and recurse respectively
+            //concatenate all alphabets related to the num and recurse respectively
+            for(int i = 0; i< letters.length(); i++){
                 String letter = letters.substring(i, i+1);
                 backtrack(combination + letter, next_digits.substring(1));
             }
-            //+ will create a new string each time we call a recursion, will not change string combination itself
-            //if we use append instead, then we need to delete it when backtrack
+            //+ will create a new string each time we call a recursion,
+            // will not change string combination itself;
+            //if we use append instead, then we need to delete the alphabet when backtrack
         }
     }
 
