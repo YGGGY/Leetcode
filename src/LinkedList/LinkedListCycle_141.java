@@ -23,11 +23,3 @@ public class LinkedListCycle_141 {
 //case 1: fast pointer is 1 step behind slow pointer, next iteration they will meet
 //case 2: other cases, will turn into case 1
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
- }
