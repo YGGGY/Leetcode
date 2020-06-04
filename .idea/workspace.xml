@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree/InvertBinaryTree_226.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/DeleteNodeInALinkedList_237.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +129,7 @@
       <workItem from="1583184700761" duration="3506000" />
       <workItem from="1583203608092" duration="856000" />
       <workItem from="1584123618796" duration="1972000" />
-      <workItem from="1591118483935" duration="3556000" />
+      <workItem from="1591118483935" duration="4167000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
