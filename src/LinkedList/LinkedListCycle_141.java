@@ -2,7 +2,7 @@ package LinkedList;
 
 public class LinkedListCycle_141 {
     public boolean hasCycle(ListNode head) {
-        if(head == null || head.next == null)   return false;
+        if(head == null || head.next == null)   return false;//记得判断head！！！！
 
         ListNode slow = head;
         ListNode fast = head.next;//注意fast设为head.next 因为我们要套圈
@@ -15,6 +15,23 @@ public class LinkedListCycle_141 {
             fast = fast.next.next;
         }
         return true;
+    }
+
+    //另一种写法
+    //快慢指针初始一样
+    public boolean hasCycle2(ListNode head) {
+        if(head==null || head.next ==null)  return false;
+
+        ListNode fast = head;
+        ListNode slow = head;
+
+        while(fast != null && fast.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+            if(fast == slow)
+                return true;
+        }
+        return false;
     }
 }
 //use two pointer - fast pointer and slow pointer
