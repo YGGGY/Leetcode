@@ -15,7 +15,7 @@ public class QueueReconstructionByHeight_406 {
             }
         });
 
-        List<int[]> output = new LinkedList<>();
+        List<int[]> output = new LinkedList<>();//用linkedlist插入更方便，用array插入还要把后面的往后挪
         for(int[] p:people){//二维数组people的每项是一个array
             output.add(p[1], p);//在index==k-value处插入
         }
