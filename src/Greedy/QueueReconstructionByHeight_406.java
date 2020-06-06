@@ -6,7 +6,7 @@ public class QueueReconstructionByHeight_406 {
         //sort int[][] people
         Arrays.sort(people, new Comparator<int[]>(){
             @Override
-            public int compare(int[] o1, int[] o2){
+            public int compare(int[] o1, int[] o2){//比较的主体是一个个int数组，所以是int[] o1
                 if(o1[0] != o2[0])
                     return o2[0] - o1[0];//height descending
                 else
@@ -15,11 +15,13 @@ public class QueueReconstructionByHeight_406 {
             }
         });
 
+        //insert into linkedlist
         List<int[]> output = new LinkedList<>();//用linkedlist插入更方便，用array插入还要把后面的往后挪
         for(int[] p:people){//二维数组people的每项是一个array
             output.add(p[1], p);//在index==k-value处插入
         }
 
+        //turn into array and return
         int n = people.length;
         return output.toArray(new int[n][2]);
     }

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Greedy/QueueReconstructionByHeight_406.java" afterDir="false" />
+    <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="12.3">
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/LinkedListCycle_II_142.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greedy/QueueReconstructionByHeight_406.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/QueueReconstructionByHeight_406.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +130,7 @@
       <workItem from="1583184700761" duration="3506000" />
       <workItem from="1583203608092" duration="856000" />
       <workItem from="1584123618796" duration="1972000" />
-      <workItem from="1591118483935" duration="13887000" />
+      <workItem from="1591118483935" duration="14944000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
@@ -188,45 +189,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="12.3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="797" y="188" key="#Notifications" timestamp="1578087092160">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="444" y="516" width="1163" height="793" key="CommitChangelistDialog2" timestamp="1591474484669">
+      <screen x="0" y="23" width="3008" height="1613" />
     </state>
-    <state x="797" y="188" key="#Notifications/0.23.1680.1027@0.23.1680.1027" timestamp="1578087092160" />
-    <state x="343" y="49" width="1236" height="845" key="CommitChangelistDialog2" timestamp="1578258291284">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="343" y="49" width="1236" height="845" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1578258291284" />
-    <state width="491" height="267" key="GridCell.Tab.0.bottom" timestamp="1575094850745">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="491" height="267" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1575094850745" />
-    <state width="491" height="267" key="GridCell.Tab.0.center" timestamp="1575094850744">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="491" height="267" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1575094850744" />
-    <state width="491" height="267" key="GridCell.Tab.0.left" timestamp="1575094850743">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="491" height="267" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1575094850743" />
-    <state width="491" height="267" key="GridCell.Tab.0.right" timestamp="1575094850745">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="491" height="267" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575094850745" />
-    <state x="611" y="62" key="SettingsEditor" timestamp="1581632481871">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="611" y="62" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1581632481871" />
-    <state x="746" y="246" key="Vcs.Push.Dialog.v2" timestamp="1575408965995">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="746" y="246" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1575408965995" />
-    <state x="193" y="305" width="689" height="462" key="find.popup" timestamp="1582327101483">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="193" y="305" width="689" height="462" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1582327101483" />
-    <state x="837" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1582234079787">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state x="837" y="252" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1582234079787" />
+    <state x="444" y="516" width="1163" height="793" key="CommitChangelistDialog2/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1591474484669" />
   </component>
 </project>
