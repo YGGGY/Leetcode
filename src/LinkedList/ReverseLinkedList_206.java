@@ -33,7 +33,7 @@ public class ReverseLinkedList_206 {
                              // 变成head<-head.next（箭头反转）
         head.next = null;//head变成tail
         //1->  2<-3<-4<-5 变成 1<-2<-3<-4<-5
-        return p;
+        return p;//p在每层recursion里都是头，所以不用担心head.next=null的问题
     }
 
 }

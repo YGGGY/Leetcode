@@ -17,6 +17,7 @@ public class CoinChange_322 {
         //count[remain-1]!=0 说明这个是计算过的结果，而不是初始化时的0
         //要remain-1是因为只创了amount个数，index为0的地方代表amount为1
 
+        //计算当前remain的min
         int min = Integer.MAX_VALUE;
         for(int coin:coins){//取各种coin的情况，往下走
             int res = helper(coins, remain - coin, count);
@@ -25,6 +26,7 @@ public class CoinChange_322 {
                 min = 1 + res;//这层用了各种coin，1为这层，所以层数+1
         }
 
+        //判断得到的min是否有效，有效返回
         if(min != Integer.MAX_VALUE){
             count[remain-1] = min;
             return min;
@@ -41,8 +43,9 @@ public class CoinChange_322 {
     //Bottom-up iteration
     public int coinChange2(int[] coins, int amount) {
         if(amount < 1) return 0;
+
         int[] dp = new int[amount+1];
-        int sum = 1;
+        int sum = 1;//从1开始一点点Bottom-up，计算到sum需要的coins数
 
         while(sum <= amount){//sum为当前计算的需要得到的sum，dp[sum]为得到sum所需要的coins数
             int min = -1;
