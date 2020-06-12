@@ -22,12 +22,3 @@ public class IntersectionOfTwoLinkedLists_160 {
 //let a and b traverse through the lists
 //when reaches the end of the list, redirect to the head of the other list
 //in the second iteration, two pointer are guaranteed to reach the intersection at the same time
-
-class ListNode{
-    int val;
-    ListNode next;
-    ListNode(int x){
-        val = x;
-        next = null;
-    }
-}
