@@ -7,7 +7,7 @@ public class SearchInsertPosition_35 {
         int right = length-1;
 
 
-        while(left <= right){
+        while(left <= right){//left == right的时候如果能取到值，就是刚好在这位置
             int mid = (left + right)/2;
             if(nums[mid] == target){
                 return mid;
