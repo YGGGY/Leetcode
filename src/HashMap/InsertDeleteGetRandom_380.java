@@ -3,7 +3,8 @@ import java.util.*;
 
 public class InsertDeleteGetRandom_380 {
     class RandomizedSet {
-        HashMap<Integer, Integer> dict;
+
+        Map<Integer, Integer> dict;
         List<Integer> list;
         Random rand = new Random();
 
@@ -31,10 +32,10 @@ public class InsertDeleteGetRandom_380 {
             if(!dict.containsKey(val))   return false;
 
             //use last element to replace val
-            int lastElement = list.get(list.size()-1);
+            int last_element = list.get(list.size()-1);
             int index = dict.get(val);
-            list.set(index, lastElement);
-            dict.put(lastElement,index);
+            list.set(index, last_element);
+            dict.put(last_element,index);
 
             list.remove(list.size()-1);//delete the last one in list
             dict.remove(val);//delete val in HashMap
