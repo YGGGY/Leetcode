@@ -25,14 +25,14 @@ public class ReverseLinkedList_206 {
     //Recursion
     public ListNode reverseList2(ListNode head) {
         //base case
-        if(head == null || head.next == null)   return head;
+        if(head == null || head.next == null)   return head;//base case
 
         ListNode p = reverseList2(head.next);//分成head和其他部分，递归其他部分
                                             //得到的p是剩余部分reverse之后的新head
         head.next.next = head;//将head->head.next（其他部分的head）
                              // 变成head<-head.next（箭头反转）
-        head.next = null;//head变成tail
-        //1->  2<-3<-4<-5 变成 1<-2<-3<-4<-5
+        head.next = null;//主要是让最外这层head指向null
+                        //中间步骤的temp_head这里指向null，return回上一层时会因为head.next.next=head这步而指向前一位
         return p;//p在每层recursion里都是头，所以不用担心head.next=null的问题
     }
 
