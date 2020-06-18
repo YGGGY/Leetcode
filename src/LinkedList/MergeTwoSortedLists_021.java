@@ -1,8 +1,8 @@
 package LinkedList;
 
 public class MergeTwoSortedLists_021 {
+
     //recursion
-    //O(n+m)time, O(n+m)space
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if(l1 == null)  return l2;
         else if(l2 == null) return l1;
@@ -15,7 +15,9 @@ public class MergeTwoSortedLists_021 {
             return l2;
         }
     }
+    //O(n+m)time, O(n+m)space
 
+    //----------------------------------------
     //iteration
     public ListNode mergeTwoLists2(ListNode l1, ListNode l2) {
         ListNode dummyHead = new ListNode(-1);
