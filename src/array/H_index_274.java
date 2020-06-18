@@ -18,7 +18,9 @@ public class H_index_274 {
         for(int i=n; i>=0; i--){
             count += buckets[i];
             if(count >= i)
-                return i;
+                return i;//这里是return i而不是return count
+                        //如果count == i那return哪个都ok
+                        //如果count > i,说明有大于i个的paper的citation>=i，取其中i个，即有i个paper的citation大于等于i
         }
         return 0;
     }
