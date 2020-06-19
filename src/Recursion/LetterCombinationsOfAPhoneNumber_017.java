@@ -13,33 +13,31 @@ public class LetterCombinationsOfAPhoneNumber_017 {
         put("9", "wxyz");
     }};
 
-    ArrayList<String> output = new ArrayList<>();
-
-    //recursion function
-    public void backtrack(String combination, String next_digits){
-        if(next_digits.length() == 0)//no number to be recurse, just add the new string to output
-            output.add(combination);
-        else{
-            String digit = next_digits.substring(0,1);//get the first num (a string)
-            String letters = map.get(digit);//get the alphbets in string related to the num
-            //concatenate all alphabets related to the num and recurse respectively
-            for(int i = 0; i< letters.length(); i++){
-                String letter = letters.substring(i, i+1);
-                backtrack(combination + letter, next_digits.substring(1));
-            }
-            //+ will create a new string each time we call a recursion,
-            // will not change string combination itself;
-            //if we use append instead, then we need to delete the alphabet when backtrack
-        }
-    }
-
     //main function
+    List<String> output = new ArrayList<>();
     public List<String> letterCombinations(String digits) {
         if(digits.length() != 0)
             backtrack("", digits);
         return output;
     }
 
+    //Recursive function
+    public void backtrack(String combination, String next){
+        if(next.length() == 0)//base case
+            output.add(combination);//把找到的string组合添加到output里
+        else{
+            String digit = next.substring(0,1);//取剩下的数里的第一个数
+            String letters = map.get(digit);//取这个数对应的字母们
+
+            for(int i=0; i<letters.length(); i++){//将这个数对应的字母 分别加到之前的结果后
+                String letter = letters.substring(i, i+1);//取各个字母
+                backtrack(combination + letter, next.substring(1));
+            }
+            //+ will create a new string each time we call a recursion,
+            // will not change string combination itself;
+            //if we use append instead, then we need to delete the alphabet when backtrack
+        }
+    }
 }
 
 
