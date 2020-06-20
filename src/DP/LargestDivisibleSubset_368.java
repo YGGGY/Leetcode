@@ -148,6 +148,8 @@ public class LargestDivisibleSubset_368 {
 
 }
 
+//看手写笔记
+
 //这题要用到的数学规则：
 //for subset [E, F, G], if h%G == 0, {E, F, G, h]
 //for subset [E, F, G], if E%d == 0, {d, E, F, G]
