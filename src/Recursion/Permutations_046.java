@@ -2,9 +2,36 @@ package Recursion;
 import java.util.*;
 
 public class Permutations_046 {
-    List<List<Integer>> output = new LinkedList<>();
-
+    //通解
     public List<List<Integer>> permute(int[] nums) {
+        List<List<Integer>> output = new ArrayList<>();
+
+        recursion(output, new ArrayList<>(), nums);
+        return output;
+    }
+
+    private void recursion(List<List<Integer>> output, List<Integer> temp, int[] nums){
+        if(temp.size() == nums.length)
+            output.add(new ArrayList<>(temp));//一定要记得new一个ArrayList！！！！
+        else{
+            for(int i=0; i < nums.length; i++){
+                if(temp.contains(nums[i]))//element already exists
+                    continue;
+                temp.add(nums[i]);
+                recursion(output, temp,nums);
+                temp.remove(temp.size()-1);
+            }
+        }
+    }
+
+
+
+
+
+    //------------------------------------------
+    public List<List<Integer>> permute2(int[] nums) {
+        List<List<Integer>> output = new LinkedList<>();
+
         //把nums变成ArrayList，因为后面swap要对list类型的nums进行操作，并且以list的类型存进output里
         ArrayList<Integer> nums_list = new ArrayList<Integer>();
         for(int num : nums){
@@ -29,4 +56,7 @@ public class Permutations_046 {
             Collections.swap(nums, first, i);//return前交换回来 Make sure后续的调用的时候是对的
         }
     }
+
+
+
 }
