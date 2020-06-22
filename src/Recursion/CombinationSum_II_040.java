@@ -1,7 +1,8 @@
 package Recursion;
+
 import java.util.*;
 
-public class CombinationSum_040 {
+public class CombinationSum_II_040 {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> output = new ArrayList<>();
         Arrays.sort(candidates);
