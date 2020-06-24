@@ -1,4 +1,4 @@
-package array;
+package BinarySearch;
 
 public class H_index_II_275 {
     public int hIndex(int[] citations) {
@@ -14,7 +14,7 @@ public class H_index_II_275 {
                 left = mid + 1; //往后边查
             else //citations[mid] > length - mid
                 right = mid -1; //往前面查
-                //这个时候其实已经得到一个符合条件的h了，但是继续往前查找是为了找有没有更大的h
+            //这个时候其实已经得到一个符合条件的h了，但是继续往前查找是为了找有没有更大的h
         }
         return length - left;
         //left>right跳出循环说明，在上一次的left=middle+1前，left==right，已经找到头了
@@ -29,4 +29,3 @@ public class H_index_II_275 {
 // 因为已经是sorted的，所以只要 第一个paper的citation数 ≥ h 就行
 // 第一个paper的数是citations[index]，所以要citations[index] ≥ length-index
 // 题目即为，找一个index，使得citations[index] ≥ length-index。通过binary search找
-
