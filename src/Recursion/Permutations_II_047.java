@@ -27,3 +27,6 @@ public class Permutations_II_047 {
         }
     }
 }
+
+//这题里，虽然备用数字有重复的，但是同一个num不可以重复使用，所以用到used[]
+//而combination sum那道题里，同一个数可以重复使用

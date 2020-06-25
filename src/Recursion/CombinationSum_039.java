@@ -12,7 +12,7 @@ public class CombinationSum_039 {
     private void recursion(List<List<Integer>> output, List<Integer> temp, int[] nums, int remain,int start){
         if(remain == 0)
             output.add(new ArrayList<Integer>(temp));
-        else if(remain < 0)//剪枝
+        else if(remain < 0)//剪枝 这个做法不符合，没必要continue做其他的i
             return;
         else{
             for(int i=start; i<nums.length; i++){
@@ -23,3 +23,5 @@ public class CombinationSum_039 {
         }
     }
 }
+
+//这个recursion tree， 先把前面的数塞满再往后塞，所以要用start这个数来记录
