@@ -25,3 +25,4 @@ public class CombinationSum_039 {
 }
 
 //这个recursion tree， 先把前面的数塞满再往后塞，所以要用start这个数来记录
+//这样不会导致出现[2,2,3]和[2,3,2]这两种相同的答案

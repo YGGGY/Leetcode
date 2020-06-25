@@ -21,7 +21,7 @@ public class CombinationSum_II_040 {
                     continue; //在start后面，有2个一样的元素，选了后面的元素，
                 //说明同深度下前面有选了前面的元素的，是重复的
                 temp.add(nums[i]);
-                recursion(output, temp, nums, remain-nums[i], i+1);
+                recursion(output, temp, nums, remain-nums[i], i+1);//因为每个数只能用一次，所以这里是i+1
                 temp.remove(temp.size()-1);
             }
         }
