@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="12.3">
+      <change afterPath="$PROJECT_DIR$/src/array/FindTheDuplicateNumber_287.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/CombinationSum_039.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/CombinationSum_039.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/Permutations_II_047.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/Permutations_II_047.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +134,7 @@
       <workItem from="1584123618796" duration="1972000" />
       <workItem from="1591118483935" duration="37200000" />
       <workItem from="1591994024850" duration="8329000" />
-      <workItem from="1592158902839" duration="42578000" />
+      <workItem from="1592158902839" duration="44453000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
@@ -250,16 +249,5 @@
       <screen x="0" y="23" width="3008" height="1613" />
     </state>
     <state x="1353" y="840" width="670" height="676" key="search.everywhere.popup/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1591667645036" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Recursion/CombinationSum_II_040.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
