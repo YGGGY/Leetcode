@@ -1,7 +1,6 @@
-package Recursion;
+package DFSnBFS;
 
 public class SurroundedRegions_130 {
-
     public void solve(char[][] board) {
         if(board.length == 0 || board[0].length == 0)   return;
         if(board.length < 2 || board[0].length < 2) return;
