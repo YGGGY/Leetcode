@@ -1,6 +1,6 @@
-package DFSnBFS;
-import javafx.util.Pair;
+package Tree;
 
+import javafx.util.Pair;
 import java.util.*;
 
 public class SumRootToLeafNumbers_129 {
@@ -118,22 +118,13 @@ public class SumRootToLeafNumbers_129 {
 }
 
 
-
-
-
-
-
-
-
-
-
 public class TreeNode {
     int val;
-    TreeNode left;
-    TreeNode right;
+    DFSnBFS.TreeNode left;
+    DFSnBFS.TreeNode right;
     TreeNode() {}
     TreeNode(int val) { this.val = val; }
-    TreeNode(int val, TreeNode left, TreeNode right) {
+    TreeNode(int val, DFSnBFS.TreeNode left, DFSnBFS.TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
