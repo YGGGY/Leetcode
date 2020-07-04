@@ -45,4 +45,51 @@ public class BinaryTreeInorderTraversal_094 {
     //Time: O(n)
     //Space: O(n)
 
+
+    //-----------------------------------------
+    //Morris Inorder Traversal
+
+    /* 做法：
+    while(curr != null){
+        if(curr.left == null){
+            add(curr);
+            curr = curr.right;
+        }
+        else{
+            把curr放到【curr的左子树】的最右的node的right上
+            curr = curr.left
+        }
+    }
+     */
+
+    public List<Integer> inorderTraversal3(TreeNode root) {
+        List<Integer> output = new ArrayList<>();
+        TreeNode curr = root;
+        TreeNode pre;
+        while(curr != null){
+            if(curr.left == null){
+                output.add(curr.val);
+                curr = curr.right;
+            }
+            else{
+                //把current放到current的左子树的最右node的右子树上
+                pre = curr.left;//current的左子树
+                while(pre.right != null){
+                    pre = pre.right;
+                }//pre变成current的左子树的最右node
+                pre.right = curr;//把current放到pre的右子树上
+
+                //current = current.left，之后把原current点的left清空
+                TreeNode temp = curr;
+                curr = curr.left;
+                temp.left = null;
+
+            }
+        }
+        return output;
+    }
+
+    //Time: O(n)
+    //Space: O(1)
+
 }

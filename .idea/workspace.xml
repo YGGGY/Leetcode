@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="12.3">
-      <change afterPath="$PROJECT_DIR$/src/Tree/BinaryTreePostorderTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/BinaryTreeInorderTraversal_094.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeInorderTraversal_094.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +148,7 @@
       <workItem from="1584123618796" duration="1972000" />
       <workItem from="1591118483935" duration="37200000" />
       <workItem from="1591994024850" duration="8329000" />
-      <workItem from="1592158902839" duration="67126000" />
+      <workItem from="1592158902839" duration="67739000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
@@ -255,13 +255,13 @@
       <screen x="0" y="23" width="3008" height="1613" />
     </state>
     <state x="435" y="727" width="689" height="693" key="find.popup/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1592600676972" />
-    <state x="1607" y="498" key="run.anything.popup" timestamp="1592076784673">
+    <state x="1607" y="498" key="run.anything.popup" timestamp="1593834635353">
       <screen x="0" y="23" width="3008" height="1613" />
     </state>
-    <state x="1607" y="498" key="run.anything.popup/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1592076784673" />
-    <state x="1353" y="840" width="670" height="676" key="search.everywhere.popup" timestamp="1593203333056">
+    <state x="1607" y="498" key="run.anything.popup/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1593834635353" />
+    <state x="1353" y="840" width="670" height="676" key="search.everywhere.popup" timestamp="1593834515263">
       <screen x="0" y="23" width="3008" height="1613" />
     </state>
-    <state x="1353" y="840" width="670" height="676" key="search.everywhere.popup/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1593203333056" />
+    <state x="1353" y="840" width="670" height="676" key="search.everywhere.popup/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1593834515263" />
   </component>
 </project>
