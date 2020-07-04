@@ -42,5 +42,38 @@ public class BinaryTreePreorderTraversal_144 {
     //Time: O(n)
     //Space: O(n)
 
+    //--------------------------------------
+    //Morris Preorder Traversal
+    public List<Integer> preorderTraversal3(TreeNode root) {
+        List<Integer> output = new ArrayList<>();
+        TreeNode curr = root;
+        TreeNode pre;
+        while(curr != null){
+            if(curr.left == null){
+                output.add(curr.val);
+                curr = curr.right;
+            }
+            else{
+                //把current放到current的左子树的最右node的右子树上
+                pre = curr.left;//current的左子树
+                while(pre.right != null && pre.right != curr){
+                    pre = pre.right;
+                }//pre变成current的左子树的最右node
 
+                if(pre.right == null){
+                    output.add(curr.val);
+                    pre.right = curr;//把current放到pre的右子树上
+                    curr = curr.left;
+                }
+                else{
+                    pre.right = null;
+                    curr = curr.right;
+                }
+            }
+        }
+        return output;
+    }
+
+    //Time: O(n)
+    //Space: O(1)
 }
