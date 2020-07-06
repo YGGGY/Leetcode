@@ -79,7 +79,8 @@ public class BinaryTreeInorderTraversal_094 {
                 }//pre变成current的左子树的最右node
                 pre.right = curr;//把current放到pre的右子树上
 
-                //current = current.left，之后把原current点的left清空
+                //current = current.left (curr变为新的tree的root）
+                //之后把原current点的left清空
                 TreeNode temp = curr;
                 curr = curr.left;
                 temp.left = null;
