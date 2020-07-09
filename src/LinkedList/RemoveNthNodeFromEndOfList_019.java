@@ -2,29 +2,31 @@ package LinkedList;
 
 public class RemoveNthNodeFromEndOfList_019 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        if(head == null)    return null;
+        if(head == null)    return head;
 
-        ListNode fast = head;
-        ListNode slow = head;
-        ListNode before = head;
-        for(int i=0; i<n; i++){
+        ListNode fast = head;//用来找最尾的null
+        ListNode after = head;//被删节点的后一个点, after走n-1步到fast
+        ListNode before = head;//被删节点的前一个点， before走2步到after
+
+        for(int i = 0; i < n - 1; i++){
             fast = fast.next;
         }
-        if(fast!= null){
-            fast = fast.next;
-            slow = slow.next;
-        }
-        else{//slow都不能动，fast已经到null了，说明删的是head
+
+        //corner case： 此时fast在最后一格，不能往后走2步
+        if(fast.next == null)//这种情况下题意要删的是head
             return head.next;
+        else{
+            fast = fast.next.next;
+            after = after.next.next;
         }
+
 
         while(fast != null){
             fast = fast.next;
-            slow = slow.next;
+            after = after.next;
             before = before.next;
         }
-
-        before.next = slow.next;
+        before.next = after;
         return head;
     }
 }
