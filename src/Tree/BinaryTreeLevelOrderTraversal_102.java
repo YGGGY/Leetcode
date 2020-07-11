@@ -26,5 +26,27 @@ public class BinaryTreeLevelOrderTraversal_102 {
 
     //---------------------------------------
     //iteration
+    public List<List<Integer>> levelOrder2(TreeNode root) {
+        List<List<Integer>> output = new ArrayList<>();
+        if(root == null)    return output;
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        int level = 0;
+        while(!queue.isEmpty()){
+            List<Integer> temp = new ArrayList<>();//用来保存这层的点
+            int length = queue.size();
+            for(int i = 0; i < length; i++){//把这层的node依次取出来-加到这层的temp里-加他们的子节点到queue
+                TreeNode curr = queue.remove();
+                temp.add(curr.val);
+                if(curr.left != null)
+                    queue.add(curr.left);
+                if(curr.right != null)
+                    queue.add(curr.right);
+            }
+            output.add(temp);//这层遍历完了，加到output上
+        }
+        return output;
+    }
 
 }
