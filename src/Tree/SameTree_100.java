@@ -18,48 +18,26 @@ public class SameTree_100 {
     //----------------------------------
     //iteration
     public boolean isSameTree2(TreeNode p, TreeNode q) {
-        if(p == null && q == null)
-            return true;
-        else if(p == null || q == null)
-            return false;
-        else if(p.val != q.val)
-            return false;
-
-        Deque<TreeNode> stackP = new ArrayDeque();
-        Deque<TreeNode> stackQ = new ArrayDeque();
-        stackP.push(p);
-        stackQ.push(q);
-        while(!stackP.isEmpty()){
-            TreeNode currP = stackP.pop();
-            TreeNode currQ = stackQ.pop();
-            if(check(currP, currQ)){
-                if(!check(currP.left, currQ.left))
-                    return false;
-                if(currP.left != null){
-                    stackP.push(currP.left);
-                    stackQ.push(currQ.left);
-                }
-                if(!check(currP.right, currQ.right))
-                    return false;
-                if(currP.right != null){
-                    stackP.push(currP.right);
-                    stackQ.push(currQ.right);
-                }
-            }
-            else
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(p);
+        queue.add(q);
+        while(!queue.isEmpty()){
+            TreeNode p1 = queue.poll();
+            TreeNode p2 = queue.poll();
+            if(p1 == null && p2 ==null)
+                continue;
+            else if(p1 == null || p2 == null)
                 return false;
+            else if(p1.val != p2.val)
+                return false;
+
+            queue.add(p1.left);
+            queue.add(p2.left);
+            queue.add(p1.right);
+            queue.add(p2.right);
         }
         return true;
     }
 
-    private boolean check(TreeNode p, TreeNode q){
-        if(p == null && q == null)
-            return true;
-        else if(p == null || q == null)
-            return false;
-        else if(p.val != q.val)
-            return false;
-        else
-            return true;
-    }
+
 }
