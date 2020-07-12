@@ -17,6 +17,7 @@ public class SameTree_100 {
 
     //----------------------------------
     //iteration
+    //queue(bfs)的做法会比stack(dfs)的好做很多，因为dfs用deque要处理null的情况
     public boolean isSameTree2(TreeNode p, TreeNode q) {
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(p);
