@@ -30,3 +30,4 @@ public class SubtreeOfAnotherTree_572 {
         return check(s.left, t.left) && check(s.right, t.right);
     }
 }
+//bfs遍历找到相同的点以后，再递归这两个tree是否相等
