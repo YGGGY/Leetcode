@@ -11,8 +11,8 @@ public class LongestConsecutiveSequence_128 {
                 continue;
             else{
                 //if n-1, n+1 exist in the map, left/right is the length of sequence next to n
-                int left = (map.containsKey(n-1))? map.get(n-1) : 0;
-                int right = (map.containsKey(n+1))? map.get(n+1) : 0;
+                int left = map.containsKey(n-1)? map.get(n-1) : 0;
+                int right = map.containsKey(n+1)? map.get(n+1) : 0;
 
                 int sum = left + right + 1;
                 map.put(n, sum);

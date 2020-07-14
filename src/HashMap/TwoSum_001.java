@@ -4,20 +4,20 @@ import java.util.*;
 public class TwoSum_001 {
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
-        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> map = new HashMap<>();//<num[i], index i>
 
-        for(int i = 0; i < nums.length; i++){
-            //对每个值，找他相对target的补数在已有的map中存不存在
-            if(map.containsKey(target - nums[i])){//找有没有key存在是这个值
+        for(int i=0; i<nums.length; i++){
+            int remain = target - nums[i];
+            if(map.containsKey(remain)){
+                result[0] = map.get(remain);
                 result[1] = i;
-                result[0] = map.get(target - nums[i]);//用这个key来get对应的value
-                return result;
             }
-            map.put(nums[i], i);//nums[index]作为key，index作为value
-            //因为给的api是找key存不存在的
+            else
+                map.put(nums[i], i);
         }
         return result;
     }
 }
 
-//用HashMap做
+//用HashMap做，key-value为数和它在的index
+//找map里是否存在remain需要的数，有的话返回当前的index和这个remain的数在的index
