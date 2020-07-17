@@ -14,4 +14,5 @@ public class LowestCommonAncestorOfABinaryTree_236 {
     }
 }
 //root开始从上往下找，找到p/q返回p/q在的子树
-//p、q都出现在一个点的子树中时，这个点是lca，且继续往上return的时候，正好return的就是这个root
+//p、q都出现在一个点的左右子树中时，这个点是lca，且继续往上return的时候，正好return的就是这个root
+//如果p、q出现在一个点的同一左/子树,说明走的不够深，继续往下走
