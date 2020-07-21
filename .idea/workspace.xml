@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="12.3">
-      <change afterPath="$PROJECT_DIR$/src/Heap/KthLargestElementInAnArray_215.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/KClosestPointsToOrigin_973.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/PopulatingNextRightPointersInEachNode_116.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +62,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="debugger.stepping" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
+      <module name="Leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.test" />
       <module name="Leetcode" />
@@ -79,8 +95,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.test" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
@@ -147,7 +168,8 @@
       <workItem from="1584123618796" duration="1972000" />
       <workItem from="1591118483935" duration="37200000" />
       <workItem from="1591994024850" duration="8329000" />
-      <workItem from="1592158902839" duration="96928000" />
+      <workItem from="1592158902839" duration="100577000" />
+      <workItem from="1595304868186" duration="4308000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
@@ -227,7 +249,9 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -242,26 +266,36 @@
     <option name="LAST_COMMIT_MESSAGE" value="12.3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1633" y="462" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595305651729">
+      <screen x="0" y="23" width="3008" height="1669" />
+    </state>
+    <state x="1633" y="462" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1680.665.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1595305651729" />
     <state x="444" y="516" width="1163" height="793" key="CommitChangelistDialog2" timestamp="1591474484669">
       <screen x="0" y="23" width="3008" height="1613" />
     </state>
     <state x="444" y="516" width="1163" height="793" key="CommitChangelistDialog2/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1591474484669" />
-    <state x="1709" y="530" key="SettingsEditor" timestamp="1594410538170">
-      <screen x="0" y="23" width="3008" height="1613" />
+    <state x="1129" y="858" key="SettingsEditor" timestamp="1595286698339">
+      <screen x="0" y="23" width="3008" height="1669" />
     </state>
     <state x="1709" y="530" key="SettingsEditor/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1594410538170" />
-    <state x="435" y="727" width="689" height="693" key="find.popup" timestamp="1592600676972">
-      <screen x="0" y="23" width="3008" height="1613" />
+    <state x="1129" y="858" key="SettingsEditor/-1680.665.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1595286698339" />
+    <state x="435" y="751" width="689" height="718" key="find.popup" timestamp="1595189322511">
+      <screen x="0" y="23" width="3008" height="1669" />
     </state>
     <state x="435" y="727" width="689" height="693" key="find.popup/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1592600676972" />
+    <state x="435" y="751" width="689" height="718" key="find.popup/-1680.665.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1595189322511" />
+    <state x="1061" y="649" key="new project wizard" timestamp="1595285711206">
+      <screen x="0" y="23" width="3008" height="1669" />
+    </state>
+    <state x="1061" y="649" key="new project wizard/-1680.665.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1595285711206" />
     <state x="1607" y="498" key="run.anything.popup" timestamp="1593834635353">
       <screen x="0" y="23" width="3008" height="1613" />
     </state>
     <state x="1607" y="498" key="run.anything.popup/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1593834635353" />
-    <state x="1353" y="868" width="670" height="700" key="search.everywhere.popup" timestamp="1594762147927">
+    <state x="1353" y="868" width="670" height="700" key="search.everywhere.popup" timestamp="1595367251927">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
     <state x="1353" y="840" width="670" height="676" key="search.everywhere.popup/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1594582401436" />
-    <state x="1353" y="868" width="670" height="700" key="search.everywhere.popup/-1680.665.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1594762147927" />
+    <state x="1353" y="868" width="670" height="700" key="search.everywhere.popup/-1680.665.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1595367251927" />
   </component>
 </project>
