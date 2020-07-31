@@ -20,7 +20,7 @@ public class KClosestPointsToOrigin_973 {
     //Time:o(nlogK)
     //Space:O(K)
 }
-//用最大堆保存，以每个点到（0，0）的距离排降序
+//用max heap保存，以每个点到（0，0）的距离排降序
 //heap大于k之后删去头结点（heap里最大的数）
 //
 // 判断用min还是max heap时，只要想想poll的时候是要删掉大的还是小的，删大的用max，删小的用min

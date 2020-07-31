@@ -16,7 +16,7 @@ public class TopKFrequentElements_347 {
                 map.put(n,1);
         }
 
-        //add elements to heap, sorted by hashmap value
+        //add elements to min heap, sorted by hashmap value
         PriorityQueue <Integer> heap = new PriorityQueue<>((o1, o2) -> map.get(o1)-map.get(o2));
         for(int n : map.keySet()){
             heap.add(n);
@@ -37,7 +37,7 @@ public class TopKFrequentElements_347 {
     }
 }
 //思路就是用hashmap记录每个element的frequence
-//然后把每个element尝试插入heap中，通过heap来达到排序和只留top k的结果
+//然后把每个element尝试插入min heap中，通过heap来达到排序和只留top k的结果
 
 //Time: O(nlogk)
 //Space: O(n+k) n for hashmap, k for heap
