@@ -33,19 +33,22 @@ public class FriendCycles_547 {
     }
     //本质是找strong connected component
     //dfs遍历，用visited标记有没有找过这个人，直到找不到新的朋友了就是一个强连通
+    //Time: O(n^2)
+    //Space: O(n)
 
     //--------------------------------------
     //Union Find
     public int findCircleNum2(int[][] M) {
         int n = M.length;
         UnionFind uf = new UnionFind(n);
+        //遍历一遍 将朋友点union成同一个cluster
         for(int i = 0; i < n; i++){
             for(int j = i + 1; j < n; j++){
                 if(M[i][j] == 1)
                     uf.union(i, j);
             }
         }
-
+        //遍历一遍找所有的root
         HashSet<Integer> set = new HashSet<>();
         for(int i = 0; i < n; i++){
             int root = uf.find(i);
@@ -54,6 +57,10 @@ public class FriendCycles_547 {
 
         return set.size();
     }
+    // 一个Friend circle是一个cluster，朋友关系的点 所在的cluster进行union
+    // 通过对每个点做find，找出所有的root。root放到set里去重，set的size就是有多少个cluster
+    //Time: O(n^3) 第一次遍历了n^2个点，每个点的union要O(n)
+    //Space : O(n)
 }
 
 class UnionFind{
@@ -61,9 +68,9 @@ class UnionFind{
     private int[] rank;
 
     public UnionFind(int n){//初始化
-        parents = new int[n+1];//每个节点的父节点，初始为该节点自己（表示每个点为独立的点）
-        rank = new int[n+1];//初始时 每个节点一个cluster，rank为1
-        for(int i = 0; i < n+1; i++){
+        parents = new int[n];//每个节点的父节点，初始为该节点自己（表示每个点为独立的点）
+        rank = new int[n];//初始时 每个节点一个cluster，rank为1
+        for(int i = 0; i < n; i++){
             parents[i] = i;
             rank[i] = 1;
         }
