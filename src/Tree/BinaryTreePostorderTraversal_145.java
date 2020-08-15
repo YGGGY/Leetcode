@@ -1,7 +1,7 @@
 package Tree;
 import java.util.*;
 
-public class BinaryTreePostorderTraversal {
+public class BinaryTreePostorderTraversal_145 {
     //------------------------------
     //recursion
     public List<Integer> postorderTraversal(TreeNode root) {
