@@ -15,6 +15,7 @@ public class RedundantConnection_684 {
 
 //题意是要去掉 使无向图成环 的边
 //即，这条边的两个点都在同一个cluster里，找到这个边去掉
+//等于 判断新加的边是否会构成cycle 这个过程
 //Time: O(n^2)
 //Space: O(n)
 
