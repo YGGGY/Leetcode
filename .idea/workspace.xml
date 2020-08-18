@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="12.3" />
+    <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="12.3">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/N_Queens_051.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +170,7 @@
       <workItem from="1592158902839" duration="100577000" />
       <workItem from="1595304868186" duration="12667000" />
       <workItem from="1597002394898" duration="2336000" />
-      <workItem from="1597265378625" duration="8920000" />
+      <workItem from="1597265378625" duration="11516000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
