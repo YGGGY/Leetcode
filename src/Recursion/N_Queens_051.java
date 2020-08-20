@@ -10,7 +10,7 @@ public class N_Queens_051 {
     }
 
     private void recursion(List<List<String>> output, int row, int[] queens, int n){
-        if(row == n){ //每行都遍历完了
+        if(row == n){ //每行都遍历完了 row为0~n-1
             List<String> temp = new ArrayList<>();  //一种答案
             for(int i = 0; i < n; i++){
                 StringBuilder s = new StringBuilder();
@@ -49,3 +49,6 @@ public class N_Queens_051 {
 
 //一维数组的下标表示在哪行row，数组的值表示该行的皇后在哪一列col
 //而且因为是一维数组，所以回溯的时候不需要进行remove，因为回溯正好回到上一行，此时只需要继续找下一个合适的col作为新的queens[i]的值
+
+//如果只要1个解（做出一个解就立刻返回这个解）的话，将recursion函数的返回值设为boolean
+//然后在recursion过程中 if(recursion()) return true; 后输出这个解
