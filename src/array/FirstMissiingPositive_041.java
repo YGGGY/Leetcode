@@ -28,3 +28,7 @@ public class FirstMissiingPositive_041 {
         nums[j] = temp;
     }
 }
+//题目要求用O(n)Time O(1)Space
+//用桶排序的思想，nums[i]放i+1这个数
+//遍历一次，将数字num放到index==num-1的位置上
+//遍历完如果有位置的数不对应，说明缺失了这个数。如果都对应，则最小的missing数是length+1

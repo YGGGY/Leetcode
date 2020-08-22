@@ -34,6 +34,7 @@ public class PopulatingNextRightPointersInEachNode_116 {
     //--------------------------------------------
     //利用next这个pointer，遍历该层的时候，处理好下一level的node的next pointer
     //如果一个点有left，它一定有right，让left.next = right，right的next指向这个点的next点的left
+    //遍历这层的时候，把下一层的Left, right节点的next处理好
     //将这层遍历完以后，走下一层的第一个点，所以要临时保存下下一层的第一个点
     public Node connect2(Node root) {
         if(root == null)    return root;
