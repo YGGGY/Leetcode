@@ -33,3 +33,6 @@ public class BestTimeToBuyAndSellStock_IV_188 {
         }
     }
 }
+//通解
+//K > n时，等效于K无限制，即LC122那题
+//其他情况下，要用三维数组遍历i和k，注意base case
