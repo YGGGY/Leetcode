@@ -1,38 +1,36 @@
 package DP;
 
 public class CoinChange_322 {
-
+    //-----------------------------------------------
     //Top-down recursion
     public int coinChange(int[] coins, int amount) {
-        if(amount <1)   return 0;
-        return helper(coins, amount, new int[amount]);
+        if(amount < 1 || coins == null)  return 0;
+        return recursion(amount, coins, new int[amount + 1]);
     }
 
-    //count[remain]: min number of coins to get the remaining number
-    private int helper(int[] coins, int remain, int[] count){
-        //结束条件
-        if(remain < 0) return -1;//not a valid solutio
-        if(remain == 0) return 0;//completed
-        if(count[remain - 1] != 0) return count[remain - 1];//用前面得到过的结果
-        //count[remain-1]!=0 说明这个是计算过的结果，而不是初始化时的0
-        //要remain-1是因为只创了amount个数，index为0的地方代表amount为1
+    private int recursion(int remain, int[] coins, int[] record){
+        //base case
+        if(remain < 0) return -1;   //无解
+        if(remain == 0) return 0;   //已经解决
+        if(record[remain] != 0) return record[remain]; //从记录的数组中取出已经计算过的结果
 
-        //计算当前remain的min
-        int min = Integer.MAX_VALUE;
-        for(int coin:coins){//取各种coin的情况，往下走
-            int res = helper(coins, remain - coin, count);
-            if(res >= 0 && res < min)//res>=0说明是valid solution
-                                     //min是这层以下所有结果的min
-                min = 1 + res;//这层用了各种coin，1为这层，所以层数+1
+        //遍历子问题
+        int res = Integer.MAX_VALUE;
+        for(int coin : coins){
+            if(remain - coin < 0) continue;//子问题无解
+
+            int subproblem = recursion(remain - coin, coins, record);
+            if(subproblem != -1)        //子问题有解，更新最优子问题答案
+                res = Math.min(res, subproblem);
         }
 
-        //判断得到的min是否有效，有效返回
-        if(min != Integer.MAX_VALUE){
-            count[remain-1] = min;
-            return min;
+        if(res != Integer.MAX_VALUE){//子问题+1coin以后可以达到remain
+            res++;  //所需coins数+1
+            record[remain] = res;//记录
+            return res;
         }
         else{
-            count[remain-1] = -1;
+            record[remain] = -1;
             return -1;
         }
     }
@@ -66,3 +64,4 @@ public class CoinChange_322 {
 }
 
 //看手写笔记
+
