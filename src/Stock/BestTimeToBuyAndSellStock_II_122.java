@@ -24,7 +24,7 @@ public class BestTimeToBuyAndSellStock_II_122 {
         int dp_i0 = 0;
         int dp_i1 = Integer.MIN_VALUE;
         for(int i = 0; i < prices.length; i++){
-            int temp = dp_i0;
+            int temp = dp_i0;         //记得保存会被更新的数据！！！！！！！！！！！！
             dp_i0 = Math.max(dp_i0, dp_i1 + prices[i]);
             dp_i1 = Math.max(dp_i1, temp - prices[i]);
         }

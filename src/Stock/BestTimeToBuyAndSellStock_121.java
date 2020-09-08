@@ -18,7 +18,7 @@ public class BestTimeToBuyAndSellStock_121 {
 
     //-------------------------------------
     //股票问题通解
-    //K = 1, 新状态只和前一天状态油管，不需要k这个参数，用2个变量表示昨天的[0]和[1]就行
+    //K = 1, 新状态只和前一天状态有关，不需要k这个参数，用2个变量表示昨天的[0]和[1]就行
     //需要注意buy的情况下不能加上dp[i][0]
     public int maxProfit(int[] prices) {
         if(prices == null || prices.length == 0)  return 0;
