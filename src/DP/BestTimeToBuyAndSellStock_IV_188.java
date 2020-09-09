@@ -1,4 +1,4 @@
-package Stock;
+package DP;
 
 public class BestTimeToBuyAndSellStock_IV_188 {
     public int maxProfit(int k, int[] prices) {
@@ -21,7 +21,7 @@ public class BestTimeToBuyAndSellStock_IV_188 {
                     if(i == 0){         //base case
                         dp[i][j][0] = 0;
                         dp[i][j][1] = -prices[i];//不能写MIN_VALUE, dp[0][k][1]本来就应该取-prices[0]
-                                                 //其他题写MIN_VALUE是因为i=0在下面的for循环中，会经过一次计算让它变成-prices[0]
+                        //其他题写MIN_VALUE是因为i=0在下面的for循环中，会经过一次计算让它变成-prices[0]
                     }
                     else{
                         dp[i][j][0] = Math.max(dp[i-1][j][0], dp[i-1][j][1] + prices[i]);
@@ -36,3 +36,4 @@ public class BestTimeToBuyAndSellStock_IV_188 {
 //通解
 //K > n时，等效于K无限制，即LC122那题
 //其他情况下，要用三维数组遍历i和k，注意base case
+

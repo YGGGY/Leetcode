@@ -1,4 +1,4 @@
-package Stock;
+package DP;
 
 public class BestTimeToBuyAndSellStock_II_122 {
     //---------------------------------
@@ -31,3 +31,4 @@ public class BestTimeToBuyAndSellStock_II_122 {
         return dp_i0;
     }
 }
+

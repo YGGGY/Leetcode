@@ -1,4 +1,4 @@
-package Stock;
+package DP;
 
 public class BestTimeToBuyAndSellStockWithTransactionFee_714 {
     public int maxProfit(int[] prices, int fee) {

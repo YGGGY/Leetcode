@@ -1,4 +1,4 @@
-package Stock;
+package DP;
 
 public class BestTimeToBuyAndSellStock_III_123 {
     public int maxProfit(int[] prices) {

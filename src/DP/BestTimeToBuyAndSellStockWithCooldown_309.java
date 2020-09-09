@@ -1,4 +1,4 @@
-package Stock;
+package DP;
 
 public class BestTimeToBuyAndSellStockWithCooldown_309 {
     public int maxProfit(int[] prices) {
