@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="12.3">
+      <change afterPath="$PROJECT_DIR$/src/DP/LongestCommonSubsequence_1143.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +171,7 @@
       <workItem from="1595304868186" duration="12667000" />
       <workItem from="1597002394898" duration="2336000" />
       <workItem from="1597265378625" duration="54362000" />
-      <workItem from="1599498679712" duration="8054000" />
+      <workItem from="1599498679712" duration="13279000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
@@ -293,10 +294,10 @@
       <screen x="0" y="23" width="3008" height="1613" />
     </state>
     <state x="1607" y="498" key="run.anything.popup/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1593834635353" />
-    <state x="1353" y="868" width="670" height="700" key="search.everywhere.popup" timestamp="1595367251927">
+    <state x="1353" y="868" width="670" height="700" key="search.everywhere.popup" timestamp="1599865045682">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
     <state x="1353" y="840" width="670" height="676" key="search.everywhere.popup/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1594582401436" />
-    <state x="1353" y="868" width="670" height="700" key="search.everywhere.popup/-1680.665.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1595367251927" />
+    <state x="1353" y="868" width="670" height="700" key="search.everywhere.popup/-1680.665.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1599865045682" />
   </component>
 </project>
