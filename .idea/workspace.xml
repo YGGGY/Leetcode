@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="12.3">
-      <change afterPath="$PROJECT_DIR$/src/DP/LongestCommonSubsequence_1143.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/EditDistance_072.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +171,7 @@
       <workItem from="1595304868186" duration="12667000" />
       <workItem from="1597002394898" duration="2336000" />
       <workItem from="1597265378625" duration="54362000" />
-      <workItem from="1599498679712" duration="13279000" />
+      <workItem from="1599498679712" duration="14640000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
