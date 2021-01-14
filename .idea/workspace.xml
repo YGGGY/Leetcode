@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="12.3">
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/SlidingWindowMaximum_239.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/GenerateParentheses_022.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/GenerateParentheses_022.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Leetcode" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,7 +68,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -170,7 +175,10 @@
       <workItem from="1595304868186" duration="12667000" />
       <workItem from="1597002394898" duration="2336000" />
       <workItem from="1597265378625" duration="54362000" />
-      <workItem from="1599498679712" duration="18148000" />
+      <workItem from="1599498679712" duration="25485000" />
+      <workItem from="1602116806907" duration="1162000" />
+      <workItem from="1602543776210" duration="600000" />
+      <workItem from="1609794295692" duration="12788000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
@@ -267,36 +275,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="12.3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1633" y="462" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595305651729">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state x="895" y="638" key="SettingsEditor" timestamp="1609795537329">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1633" y="462" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1680.665.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1595305651729" />
-    <state x="444" y="516" width="1163" height="793" key="CommitChangelistDialog2" timestamp="1591474484669">
-      <screen x="0" y="23" width="3008" height="1613" />
-    </state>
-    <state x="444" y="516" width="1163" height="793" key="CommitChangelistDialog2/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1591474484669" />
-    <state x="1555" y="734" key="SettingsEditor" timestamp="1598123206457">
-      <screen x="0" y="23" width="3008" height="1669" />
-    </state>
-    <state x="1709" y="530" key="SettingsEditor/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1594410538170" />
-    <state x="1555" y="734" key="SettingsEditor/-1680.665.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1598123206457" />
-    <state x="435" y="751" width="689" height="718" key="find.popup" timestamp="1595189322511">
-      <screen x="0" y="23" width="3008" height="1669" />
-    </state>
-    <state x="435" y="727" width="689" height="693" key="find.popup/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1592600676972" />
-    <state x="435" y="751" width="689" height="718" key="find.popup/-1680.665.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1595189322511" />
-    <state x="1061" y="649" key="new project wizard" timestamp="1598124136428">
-      <screen x="0" y="23" width="3008" height="1669" />
-    </state>
-    <state x="1061" y="649" key="new project wizard/-1680.665.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1598124136428" />
-    <state x="1607" y="498" key="run.anything.popup" timestamp="1593834635353">
-      <screen x="0" y="23" width="3008" height="1613" />
-    </state>
-    <state x="1607" y="498" key="run.anything.popup/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1593834635353" />
-    <state x="1353" y="868" width="670" height="700" key="search.everywhere.popup" timestamp="1599865045682">
-      <screen x="0" y="23" width="3008" height="1669" />
-    </state>
-    <state x="1353" y="840" width="670" height="676" key="search.everywhere.popup/-1680.665.1680.1027/0.23.3008.1613@0.23.3008.1613" timestamp="1594582401436" />
-    <state x="1353" y="868" width="670" height="700" key="search.everywhere.popup/-1680.665.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1599865045682" />
+    <state x="895" y="638" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1609795537329" />
   </component>
 </project>
