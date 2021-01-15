@@ -28,3 +28,6 @@ public class NextGreaterElement_II_503 {
 
 //Time: O(n)
 //Space: O(n)
+
+//暴力解法是跑2次，每个nums[i]和后面的数进行对比
+//题解的做法是取当前较大值进行比较，小了的话取下一个较大值
