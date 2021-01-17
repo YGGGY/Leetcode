@@ -1,7 +1,7 @@
 package Tree;
 
 public class BinaryTreePruning_814 {
-    public TreeNode pruneTree(TreeNode root) {
+    public TreeNode pruneTree2(TreeNode root) {
         if(root == null) return null;
 
         if(check(root))//判断是不是root节点也要删，后面的递归只删子节点，删不到root
@@ -20,5 +20,17 @@ public class BinaryTreePruning_814 {
 
         return curr.val == 1 || check(curr.left) || check(curr.right);
     }
+
+    //不用helper的做法，更简洁
+    public TreeNode pruneTree(TreeNode root) {
+        if(root == null) return null;
+
+        root.left = pruneTree(root.left);
+        root.right = pruneTree(root.right);
+        //从下往上删，不合格的0已经被删去了
+        if(root.val == 0 && root.left == null && root.right == null)
+            return null;
+
+        return root;
+    }
 }
-//从下往上找，不过用recursion从上往下写
