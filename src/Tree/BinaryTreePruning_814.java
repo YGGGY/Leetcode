@@ -2,8 +2,12 @@ package Tree;
 
 public class BinaryTreePruning_814 {
     public TreeNode pruneTree(TreeNode root) {
-        check(root);
-        return root;
+        if(root == null) return null;
+
+        if(check(root))//判断是不是root节点也要删，后面的递归只删子节点，删不到root
+            return root;
+        else
+            return null;
     }
 
     private boolean check(TreeNode curr){
