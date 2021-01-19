@@ -8,9 +8,9 @@ public class LowestCommonAncestorOfABinaryTree_236 {
         TreeNode left = lowestCommonAncestor(root.left, p, q);
         TreeNode right = lowestCommonAncestor(root.right, p, q);
 
-        if(left == null)    return right;//p, q其中一个在一边的子树上/p，q都不在子树上
-        if(right == null)   return left;
-        return root;//left != null && right != null, 说明p，q在左右子树上
+        if(left == null)    return right;//p,q都在右边
+        if(right == null)   return left;//p,q都在左边
+        return root;//left != null && right != null, 说明p，q分别在左右子树上
     }
 }
 //root开始从上往下找，找到p/q返回p/q在的子树
