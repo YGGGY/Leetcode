@@ -22,7 +22,7 @@ public class BinaryTreePostorderTraversal_145 {
 
     //---------------------------------
     //iteration
-    public List<Integer> postorderTraversal(TreeNode root) {
+    public List<Integer> postorderTraversal2(TreeNode root) {
         List<Integer> output = new ArrayList<>();
         if(root == null)    return output;
         Deque<TreeNode> stack = new ArrayDeque();

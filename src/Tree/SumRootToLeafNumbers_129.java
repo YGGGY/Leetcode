@@ -118,7 +118,7 @@ public class SumRootToLeafNumbers_129 {
 }
 
 
-public class TreeNode {
+class TreeNode {
     int val;
     Tree.TreeNode left;
     Tree.TreeNode right;

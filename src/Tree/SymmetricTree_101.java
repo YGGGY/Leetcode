@@ -21,7 +21,7 @@ public class SymmetricTree_101 {
 
     //-----------------------------
     //iteration
-    public boolean isSymmetric(TreeNode root) {
+    public boolean isSymmetric2(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         queue.add(root);
