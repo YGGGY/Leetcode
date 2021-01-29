@@ -17,7 +17,7 @@ public class PalindromeLinkedList_234 {
         int left = 0;
         int right = copy.size()-1;
         while(left < right){
-            if(!copy.get(left).equals(copy.get(right)))
+            if(!copy.get(left).equals(copy.get(right)))//要用equals()，用int会把相等的数判为不等
                 return false;
             left++;
             right--;
