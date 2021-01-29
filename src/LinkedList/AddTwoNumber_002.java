@@ -23,3 +23,5 @@ public class AddTwoNumber_002 {
         return dummyHead.next;
     }
 }
+//因为linkedlist有1~100个node，如果用一个数表示整个数的话，这个数会很长，不能用int/long之类的数来表示
+//所以不能先算出num1，num2再相加，而是过程中就相加
