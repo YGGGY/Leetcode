@@ -91,6 +91,7 @@ public class PalindromeLinkedList_234 {
             ListNode fast = head;
             ListNode slow = head;
 
+            //奇数个返回最中间的，偶数个返回左半边最后一个
             while(fast.next != null && fast.next.next != null){
                 fast = fast.next.next;
                 slow = slow.next;
