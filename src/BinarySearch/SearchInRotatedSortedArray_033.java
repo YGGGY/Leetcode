@@ -67,9 +67,41 @@ public class SearchInRotatedSortedArray_033 {
         }
         return -1;
     }
-}
-//O(logn)时间复杂度
-//先用二分法找出rotate的位置，再确定是从左半边还是右半边找（用二分法找target)
-//思路不算复杂，但是很多Corner case要debug
+    //O(logn)时间复杂度
+    //先用二分法找出rotate的位置，再确定是从左半边还是右半边找（用二分法找target)
+    //思路不算复杂，但是很多Corner case要debug
 
-//找rotate位置，我做的方法是区间头尾比较，其实可以直接找一个点mid，使得mid点大于后一个点，这样二分法好写多了
+    //找rotate位置，我做的方法是区间头尾比较，其实可以直接找一个点mid，使得mid点大于后一个点，这样二分法好写多了
+
+    //-----------------------------------------
+    //one-pass binary search
+    //画一下柱状图就能发现，rotated后面的数都比array[0]的数小
+    //可以通过nums[mid]和nums[left]进行比较来知道mid是否在rotated的部分
+    public int search2(int[] nums, int target) {
+        if(nums == null || nums.length == 0)    return -1;
+
+        int left = 0, right = nums.length - 1;
+        while(left <= right){
+            int mid = (left + right)/2;
+            if(nums[mid] == target)
+                return mid;
+            else if(nums[mid] >= nums[left]){//mid在没rotated的部分
+                if(target >= nums[left] && target <= nums[mid])
+                    //target在left~mid这个没rotated的区间，在mid左边
+                    right = mid - 1;
+                else
+                    //target可能在rotated，也可能在没rotated区间。但至少不在mid左边
+                    left = mid + 1;
+            }
+            else{//mid在rotated的部分
+                if(target >= nums[mid] && target <= nums[right])
+                    //target在mid~right这个rotated的区间，在mid右边
+                    left = mid + 1;
+                else
+                    //target可能在rotated，也可能在没rotated区间。但至少不在mid右边
+                    right = mid - 1;
+            }
+        }
+        return -1;
+    }
+}
