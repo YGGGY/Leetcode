@@ -19,7 +19,6 @@ public class ReverseLinkedList_206 {
         }
         return prev;//将尾部的作为head
     }
-    //新建一个链表的做法 参考21.Merge Two Sorted Lists
 
 
     //Recursion

@@ -24,7 +24,6 @@ public class CopyListWithRandomPointer_138 {
                     map.put(head.random, new Node(head.random.val));//把random point存入hashmap
                 }
                 curr.next.random = map.get(head.random);//copy random pointer
-                //但是这里没有把random point存进new list里
             }
 
             head = head.next;
@@ -37,9 +36,10 @@ public class CopyListWithRandomPointer_138 {
     //Space: O(n)
 
     //------------------------------------
+    //这个方法不需要额外新增hashmap
     //在原本的linkedlist上，把copy node放到原本的node之后
-    //random pointer和原本的node一样指向对应的copy node
-    //extract copy node成单独的list
+    //新copy node的random pointer指向对应的copy node
+    //最后extract copy node成单独的list
     public Node copyRandomList2(Node head) {
         if(head == null) return null;
 
