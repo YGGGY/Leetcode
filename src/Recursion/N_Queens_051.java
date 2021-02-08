@@ -16,7 +16,7 @@ public class N_Queens_051 {
                 StringBuilder s = new StringBuilder();
                 for(int j = 0; j < n; j++){
                     if(j == queens[i])    //queens[i] 表示第i行的queens在第几列
-                        s.append("Q");
+                        s.append("Q"); //也可以直接String s = "", 每次s = s + "Q"
                     else
                         s.append(".");
                 }
