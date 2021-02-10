@@ -26,6 +26,7 @@ public class QueueReconstructionByHeight_406 {
         return output.toArray(new int[n][2]);
     }
 }
+//把各组[hi,ki]排序：hi降序，ki升序。然后插入index == ki的地方
 //Sort the tallest guy in ascending↑ order by k-value, and insert into queue at the indexes equal to k-value.
 //Take the next height in descending↓ order.
 // Also sort these guys in ascending order by k-value, and insert into queue at the indexes equal to k-value.
