@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="12.3">
+      <change afterPath="$PROJECT_DIR$/src/Greedy/JumpGame_055.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/PalindromePartitioning_131.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Greedy/QueueReconstructionByHeight_406.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/QueueReconstructionByHeight_406.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/JumpGame_055.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +179,7 @@
       <workItem from="1599498679712" duration="25485000" />
       <workItem from="1602116806907" duration="1162000" />
       <workItem from="1602543776210" duration="600000" />
-      <workItem from="1609794295692" duration="90632000" />
+      <workItem from="1609794295692" duration="101682000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
@@ -278,6 +280,10 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="895" y="638" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1609795537329" />
+    <state x="1550" y="667" width="689" height="693" key="find.popup" timestamp="1613330891766">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1550" y="667" width="689" height="693" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1613330891766" />
     <state x="1669" y="764" width="670" height="676" key="search.everywhere.popup" timestamp="1612216676101">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>

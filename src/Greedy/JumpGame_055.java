@@ -1,4 +1,4 @@
-package array;
+package Greedy;
 
 public class JumpGame_055 {
     public boolean canJump(int[] nums) {
@@ -11,3 +11,5 @@ public class JumpGame_055 {
         return true;
     }
 }
+//Greedy的做法是O(n)
+//也可以用boolean dp[i]来做，遍历每个i的nums[i]来使得dp[j]为true，但是这个要O(n^2)
