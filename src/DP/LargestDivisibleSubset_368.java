@@ -31,8 +31,8 @@ public class LargestDivisibleSubset_368 {
             }
         }
 
-        int len = 0;
-        int index = 0;//LDS在index处end
+        int len = 0;//最长divisible subset的长度
+        int index = 0;//nums[index]为subset最后一个数
         for(int i = 0; i < n; i++){
             if(dp[i] > len){
                 len = dp[i];
