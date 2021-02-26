@@ -7,7 +7,7 @@ public class LongestIncreasingSubsequence_300 {
 
         int n = nums.length;
         int[] dp = new int[n];//dp[i]：以nums[i]为结尾的增序列的max length
-        Arrays.fill(dp, 1);  //初始化：dp[i] = 0
+        Arrays.fill(dp, 1);  //初始化：dp[i] = 1
         for(int i = 0; i < n; i++){
             for(int j = 0; j < i; j++){
                 if(nums[i] > nums[j])
