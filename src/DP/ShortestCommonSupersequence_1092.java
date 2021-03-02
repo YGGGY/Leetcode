@@ -36,9 +36,9 @@ public class ShortestCommonSupersequence_1092 {
                 len2--;
             }
             else{   //把dp大的那个加上去
-                if(dp[len1-1][len2] >= dp[len1][len2-1]){
-                    sb.append(str1.charAt(len1-1));
-                    len1--;
+                if(dp[len1-1][len2] >= dp[len1][len2-1]){//上格 >= 左格
+                    sb.append(str1.charAt(len1-1)); //这格取str1的
+                    len1--; //往上走
                 }
                 else{
                     sb.append(str2.charAt(len2-1));
