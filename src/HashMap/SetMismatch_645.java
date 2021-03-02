@@ -19,3 +19,4 @@ public class SetMismatch_645 {
         return ans;
     }
 }
+//不用hashmap,用一个int[]来记录出现次数也可以，array[index]表示index出现过的次数
