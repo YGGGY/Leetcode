@@ -12,7 +12,7 @@ public class DistributeCandies_575 {
     }
 
     //---------------------------
-    public int distributeCandies(int[] candyType) {
+    public int distributeCandies2(int[] candyType) {
         Arrays.sort(candyType);
         int type = 1;
 
