@@ -1,5 +1,4 @@
-package array;
-
+package Math;
 public class MissingNumber_268 {
     public int missingNumber(int[] nums) {
         int sum = 0;
