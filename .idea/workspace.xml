@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="12.3" />
+    <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="12.3">
+      <change afterPath="$PROJECT_DIR$/src/DP/PalindromeParititioning_III_1278.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/CheckIfBinaryStringHasAtMostOneSegmentOfOnes_1784.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +180,7 @@
       <workItem from="1602543776210" duration="600000" />
       <workItem from="1609794295692" duration="105552000" />
       <workItem from="1614009046812" duration="7658000" />
-      <workItem from="1614301812857" duration="16250000" />
+      <workItem from="1614301812857" duration="19080000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
