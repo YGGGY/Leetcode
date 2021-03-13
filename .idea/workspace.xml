@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="12.3">
-      <change afterPath="$PROJECT_DIR$/src/Math/ConsecutiveNumbersSum_829.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bit/CheckIfAStringContainsAllBinaryCodesOfSizeK_1461.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +179,7 @@
       <workItem from="1602543776210" duration="600000" />
       <workItem from="1609794295692" duration="105552000" />
       <workItem from="1614009046812" duration="7658000" />
-      <workItem from="1614301812857" duration="28354000" />
+      <workItem from="1614301812857" duration="34729000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
@@ -280,10 +280,10 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="895" y="638" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1609795537329" />
-    <state x="991" y="490" width="689" height="503" key="find.popup" timestamp="1614895840062">
+    <state x="991" y="490" width="689" height="503" key="find.popup" timestamp="1615499162493">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="991" y="490" width="689" height="503" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1614895840062" />
+    <state x="991" y="490" width="689" height="503" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1615499162493" />
     <state x="1550" y="667" width="689" height="693" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1613330891766" />
     <state x="1425" y="453" width="895" height="585" key="new project wizard" timestamp="1613681069218">
       <screen x="0" y="23" width="2560" height="1417" />
