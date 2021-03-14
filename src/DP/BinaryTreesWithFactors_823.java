@@ -6,7 +6,7 @@ public class BinaryTreesWithFactors_823 {
         int mod = 1000000007;
         Arrays.sort(arr);
         HashMap<Integer, Integer> map = new HashMap<>();
-        for(int i = 0; i < arr.length; i++){
+        for(int i = 0; i < arr.length; i++){ //用hashmap来用arr[k]找到对应k
             map.put(arr[i], i);
         }
 
