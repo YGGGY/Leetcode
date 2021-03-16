@@ -58,3 +58,5 @@ class TrieNode{
     TrieNode[] children = new TrieNode[26]; //用array来存children，可以不用hashmap（当然也可以用就是了）
     String word; //以这个点结尾能表达的word
 }
+
+//用各个word来build trie tree，然后用dfs遍历
