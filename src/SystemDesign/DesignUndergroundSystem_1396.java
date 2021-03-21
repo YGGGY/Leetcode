@@ -42,3 +42,6 @@ public class DesignUndergroundSystem_1396 {
         return totalTime/totalTrip;
     }
 }
+
+//Time: O(1)
+//Space: O(P + S^2) P is # passenger, S is # stations
