@@ -11,9 +11,10 @@ public class ValidateBinarySearchTree_098 {
         if(root == null)
             return true;
 
-        if(lower != null && root.val <= lower)   return false;//left:继承lower，更新upper
-        if(upper != null && root.val >= upper)   return false;//right:继承upper，更新lower
+        if(lower != null && root.val <= lower)   return false;
+        if(upper != null && root.val >= upper)   return false;
 
+        //left:继承lower，更新upper                   right:继承upper，更新lower
         return check(root.left, lower, root.val) && check(root.right, root.val, upper);
     }
 
