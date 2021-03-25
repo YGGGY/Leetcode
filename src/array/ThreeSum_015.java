@@ -41,7 +41,7 @@ public class ThreeSum_015 {
 
 
     //------------------------------------------------
-    //不用sort的方法
+    //不用sort， 遍历ij，找剩余的那个数在不在
     public List<List<Integer>> threeSum2(int[] nums) {
         HashSet<List<Integer>> output = new HashSet<>(); //用set来去掉重复的结果
         HashSet<Integer> duplicate = new HashSet<>();  //去除nums里重复的数
