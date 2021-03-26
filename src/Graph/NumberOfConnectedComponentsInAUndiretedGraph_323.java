@@ -9,7 +9,7 @@ public class NumberOfConnectedComponentsInAUndiretedGraph_323 {
         }
 
         HashSet<Integer> set = new HashSet<>();
-        for(int i = 0; i < n; i++){
+        for(int i = 0; i < n; i++){ //注意这里不用edge[0],edge[1]来遍历，因为有可能有孤立点，没有边，不出现在edges上
             int temp = uf.find(i);
             set.add(temp);
         }

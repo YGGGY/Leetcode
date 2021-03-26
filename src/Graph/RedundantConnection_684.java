@@ -16,6 +16,8 @@ public class RedundantConnection_684 {
 //题意是要去掉 使无向图成环 的边
 //即，这条边的两个点都在同一个cluster里，找到这个边去掉
 //等于 判断新加的边是否会构成cycle 这个过程
+//union过程中，新加的edge的两个vertex都已经存在于cluster里，说明加上这个edge会成环
+//px == py，说明x和y是同一个root，说明x和y在同一个cluster，即x和y都已经被加到cluster里了
 //Time: O(n^2)
 //Space: O(n)
 
