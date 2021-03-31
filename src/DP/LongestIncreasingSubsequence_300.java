@@ -25,4 +25,23 @@ public class LongestIncreasingSubsequence_300 {
     //Time：O(n^2)
     //Space: O(n)
 
+    //--------------------------------------------------
+    //蜘蛛纸牌的思想，把数放到left most eligible的pile上，新的大的数放不了就放到新的pile上
+    //最后piles数就是LIS长度
+    public int lengthOfLIS2(int[] nums) {
+        int n = nums.length;
+        int[] piles = new int[n];//用来存每个pile最小的数（即最下面那个数）
+        int numOfPiles = 0;
+        for(int num : nums){
+            int destPile = Arrays.binarySearch(piles, 0, numOfPiles, num);//返回已有的pile index
+            if(destPile < 0)//不在pile里
+                destPile = - (destPile + 1);//不在时会return -(index+1)
+            piles[destPile] = num;//更新这个pile的最小数
+            if(destPile == numOfPiles)//存在新的pile里了
+                numOfPiles ++;
+        }
+        return numOfPiles;
+    }
+    //Time: O(nlogn) 每个数都只找一次，每次要在piles里Binarysearch要logn时间
+    //Space: O(n)
 }
