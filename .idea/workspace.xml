@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="12.3">
+      <change afterPath="$PROJECT_DIR$/src/DP/WordBreak_139.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Greedy/StampingTheSequence_936.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greedy/StampingTheSequence_936.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trie/ConcatenatedWords_472.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trie/ConcatenatedWords_472.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trie/ConcatenatedWords_472.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +181,7 @@
       <workItem from="1609794295692" duration="105552000" />
       <workItem from="1614009046812" duration="7658000" />
       <workItem from="1614301812857" duration="49755000" />
-      <workItem from="1615921952946" duration="59911000" />
+      <workItem from="1615921952946" duration="65731000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
@@ -291,10 +291,10 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1425" y="453" width="895" height="585" key="new project wizard/0.23.2560.1417@0.23.2560.1417" timestamp="1613681069218" />
-    <state x="1669" y="764" width="670" height="676" key="search.everywhere.popup" timestamp="1617167796387">
+    <state x="1669" y="764" width="670" height="676" key="search.everywhere.popup" timestamp="1617479840583">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1095" y="560" width="670" height="490" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1614639381195" />
-    <state x="1669" y="764" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1617167796387" />
+    <state x="1669" y="764" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1617479840583" />
   </component>
 </project>
