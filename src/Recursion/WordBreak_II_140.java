@@ -8,7 +8,7 @@ public class WordBreak_II_140 {
     }
 
     private List<String> recursion(String s, List<String> wordDict, HashMap<String, List<String>> map){
-        if(map.containsKey(s))
+        if(map.containsKey(s))//有保存过的中间答案，直接返回
             return map.get(s);
 
         List<String> ans = new ArrayList<>();
