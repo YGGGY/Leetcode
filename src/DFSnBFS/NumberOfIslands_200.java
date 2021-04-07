@@ -92,14 +92,14 @@ public class NumberOfIslands_200 {
         UnionFind uf = new UnionFind(grid); //每个点的row*m+col是它的id，一开始创建这个n*m个点，count为n*m
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
-                if(grid[i][j] == '1'){
+                if(grid[i][j] == '1'){ //把1的四个方位的1 union起来
                     for(int[] direction : directions){
                         int row = i + direction[0];
                         int col = j + direction[1];
                         if(row >= 0 && row < n && col >= 0 && col < m && grid[row][col] == '1'){
                             int id1 = i * m + j;
                             int id2 = row * m + col;
-                            uf.union(id1, id2);
+                            uf.union(id1, id2); //union成功会使得count--，union失败即同一个root则无事发生
                         }
                     }
                 }
