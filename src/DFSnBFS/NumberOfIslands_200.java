@@ -89,7 +89,7 @@ public class NumberOfIslands_200 {
         int n = grid.length;
         int m = grid[0].length;
         int[][] directions = {{1,0}, {-1,0}, {0,1}, {0,-1}};
-        UnionFind uf = new UnionFind(grid);
+        UnionFind uf = new UnionFind(grid); //每个点的row*m+col是它的id，一开始创建这个n*m个点，count为n*m
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
                 if(grid[i][j] == '1'){

@@ -5,7 +5,7 @@ public class NumberOfConnectedComponentsInAUndiretedGraph_323 {
     public int countComponents(int n, int[][] edges) {
         UnionFind uf = new UnionFind(n);
         for(int[] edge : edges){
-            uf.union(edge[0], edge[1]);
+            uf.union(edge[0], edge[1]);  //每个点的id就是它自己，通过边来union它们
         }
 
         HashSet<Integer> set = new HashSet<>();

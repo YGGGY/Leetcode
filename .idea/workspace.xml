@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06fd5830-fb56-448f-836c-d8292cb87a46" name="Default Changelist" comment="12.3">
+      <change afterPath="$PROJECT_DIR$/src/Graph/AccountsMerge_721.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/DecodeString_394.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Math/MinimumOperationsToMakeArrayEqual_1551.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Math/MinimumOperationsToMakeArrayEqual_1551.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DFSnBFS/NumberOfIslands_200.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFSnBFS/NumberOfIslands_200.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graph/NumberOfConnectedComponentsInAUndiretedGraph_323.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graph/NumberOfConnectedComponentsInAUndiretedGraph_323.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +183,7 @@
       <workItem from="1609794295692" duration="105552000" />
       <workItem from="1614009046812" duration="7658000" />
       <workItem from="1614301812857" duration="49755000" />
-      <workItem from="1615921952946" duration="93059000" />
+      <workItem from="1615921952946" duration="94174000" />
     </task>
     <task id="LOCAL-00001" summary="initial test">
       <created>1575092440885</created>
