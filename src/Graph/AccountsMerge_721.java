@@ -2,10 +2,11 @@ package Graph;
 import java.util.*;
 
 public class AccountsMerge_721 {
+    //Union-find 做法
+    //每个email的id为所在行的index（毕竟同一行说明属于同一个人，用同一个id就好），用map来存email和id的对应关系，一共会有n个点
+    //遍历过程中，如果该行有email是已经有id的，说明可以union，就把这个id和该行的id union一下，该行其他的email的id依然为这行的index
+    //最后uf的connected component数量为用户数量，把每个component输出，记得email排序+加上用户名在最前面
     public List<List<String>> accountsMerge(List<List<String>> accounts) {
-        //每个email的id为所在行的index（毕竟同一行说明属于同一个人，用同一个id就好），用map来存email和id的对应关系，一共会有n个点
-        //遍历过程中，如果该行有email是已经有id的，说明可以union，就把这个id和该行的id union一下，该行其他的email的id依然为这行的index
-        //最后uf的connected component数量为用户数量，把每个component输出，记得email排序+加上用户名在最前面
         List<List<String>> output = new ArrayList<>();
         HashMap<String, Integer> map = new HashMap<>(); //email -- id
 
@@ -49,6 +50,60 @@ public class AccountsMerge_721 {
         return output;
 
     }
+
+
+
+
+    //--------------------------------------------------------------
+    //DFS
+    //把每一行[name1, email1,email2, email3]的边用map存成邻接表：email1-email2, email2-email3
+    //另外用个map来存email-name的映射，用<set> visited来标记email有没有被检索过
+    //对一个email1，找它的相连的点email2，加入list和visitied,再递归找email2的连接点
+    public List<List<String>> accountsMerge2(List<List<String>> accounts) {
+        Map<String, Set<String>> graph = new HashMap<>();  //<email node, neighbor nodes>
+        Map<String, String> name = new HashMap<>();        //<email, username>
+        // Build the graph;
+        for (List<String> account : accounts) {
+            String userName = account.get(0);
+            for (int i = 1; i < account.size(); i++) {
+                if (!graph.containsKey(account.get(i))) {
+                    graph.put(account.get(i), new HashSet<>());
+                }
+                name.put(account.get(i), userName);
+
+                if (i == 1) continue;
+                graph.get(account.get(i)).add(account.get(i - 1));
+                graph.get(account.get(i - 1)).add(account.get(i));
+            }
+        }
+
+        Set<String> visited = new HashSet<>();
+        List<List<String>> res = new LinkedList<>();
+        // DFS search the graph;
+        for (String email : name.keySet()) {
+            List<String> list = new LinkedList<>();
+            if (visited.add(email)) {
+                dfs(graph, email, visited, list);
+                Collections.sort(list);
+                list.add(0, name.get(email));
+                res.add(list);
+            }
+        }
+
+        return res;
+    }
+
+    public void dfs(Map<String, Set<String>> graph, String email, Set<String> visited, List<String> list) {
+        list.add(email);
+        for (String next : graph.get(email)) {
+            if (visited.add(next)) {
+                dfs(graph, next, visited, list);
+            }
+        }
+    }
+}
+
+
 }
 
 class UnionFind{
