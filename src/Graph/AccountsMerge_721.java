@@ -55,8 +55,10 @@ public class AccountsMerge_721 {
 
 
     //--------------------------------------------------------------
-    //DFS
-    //把每一行[name1, email1,email2, email3]的边用map存成邻接表：email1-email2, email2-email3
+    //DFS 建图（邻接表）以后dfs遍历+visited，和friendcycle的dfs做法有点像
+    //把每一行[name1, 1, 2, 3]的边用map存成邻接表：1-2, 2-3
+    //[name1, 2, 4, 5]
+    //graph会变成：1->2   2->3,4   3->2    4->2,5    5->4
     //另外用个map来存email-name的映射，用<set> visited来标记email有没有被检索过
     //对一个email1，找它的相连的点email2，加入list和visitied,再递归找email2的连接点
     public List<List<String>> accountsMerge2(List<List<String>> accounts) {
