@@ -38,7 +38,7 @@ public class LRUCache_146 {
         else{//要put新的key-node，加新的node
             if(map.size() == capacity){//map满了,要删掉tail
                 map.remove(dummyTail.prev.key);
-                removeNode(dummyTail.prev);
+                removeNode(dummyTail.prev);//注意先删map的key再删node，不然会删错key
             }
             Node newNode = new Node();
             newNode.key = key;
