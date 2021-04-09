@@ -31,7 +31,7 @@ public class InsertDeleteGetRandom_380 {
         public boolean remove(int val) {
             if(!dict.containsKey(val))   return false;
 
-            //use last element to replace val
+            //在list上把要删的这个数和最后那个数换一下位置，然后删最后这个数，这样不会吧后面的数都往前移
             int last_element = list.get(list.size()-1);
             int index = dict.get(val);
             list.set(index, last_element);
