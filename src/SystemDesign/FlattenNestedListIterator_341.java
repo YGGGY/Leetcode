@@ -2,7 +2,7 @@ package SystemDesign;
 import java.util.*;
 
 public class NestedIterator implements Iterator<Integer> {
-    private Stack<ListIterator<NestedInteger>> lists;
+    private Stack<ListIterator<NestedInteger>> lists; //stack里存各个list的listIterator
 
     public NestedIterator(List<NestedInteger> nestedList) {
         lists = new Stack<>();
