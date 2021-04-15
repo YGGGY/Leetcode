@@ -61,7 +61,7 @@ public class LongestPalindromicSubstring_005 {
             left --;
             right ++;
         }
-        //注意跳出while的时候，left和right是越界的情况，我们想要的left其实是left+1，right是right-1
+        //注意跳出while的时候，left和right是越界/s[left]已经不等于s[right]的情况，我们想要的left其实是left+1，right是right-1
         //实际上是len = (right-1)-(left+1)+1，化简以后是right-left-1
         return right - left - 1;
     }
