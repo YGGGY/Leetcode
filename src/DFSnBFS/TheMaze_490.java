@@ -10,13 +10,13 @@ public class TheMaze_490 {
         return dfs(start[0], start[1], maze, destination, new boolean[maze.length][maze[0].length]);
     }
 
-    private boolean dfs(int i, int j, int[][] maze, int[] dest, boolean[][] startHere){
-        if(startHere[i][j] == true)
+    private boolean dfs(int i, int j, int[][] maze, int[] dest, boolean[][] visited){
+        if(visited[i][j] == true)
             return false;
         if(i == dest[0] && j == dest[1])
             return true;
 
-        startHere[i][j] = true;
+        visited[i][j] = true;
 
         for(int[] direct : directions){
             int row = i;
@@ -25,7 +25,7 @@ public class TheMaze_490 {
                 row = row + direct[0];
                 col = col + direct[1];
             }
-            if(dfs(row, col, maze, dest, startHere)){
+            if(dfs(row, col, maze, dest, visited)){
                 return true;
             }
         }
@@ -40,3 +40,12 @@ public class TheMaze_490 {
     }
 
 }
+
+//这题用dfs的思路肯定很直观
+//basecase有2种，一个是到达dest返回true，一个是一直转圈（回到原出发点），返回false
+//用visited[][]来记录这个点到没到过
+
+
+
+//Time: O(mn)
+//Space: O(mn)
