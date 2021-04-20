@@ -17,9 +17,7 @@ public class LongestSubstringWithAtMostKDistinctCharacters_340 {
                 map.remove(s.charAt(left));
                 start = left + 1;
             }
-            else{
-                ans = Math.max(ans, i-start+1);
-            }
+            ans = Math.max(ans, i-start+1);
         }
         return ans;
     }
