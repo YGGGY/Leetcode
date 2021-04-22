@@ -1,4 +1,5 @@
 package Graph;
+import java.util.*;
 
 public class NetworkDelayTime_743 {
     public int networkDelayTime(int[][] times, int n, int k) {
@@ -38,3 +39,7 @@ public class NetworkDelayTime_743 {
             return -1;
     }
 }
+
+//先用map：node-list of [node,time]建图，然后从k点开始，每次找离k最近的点x（从heap poll出来）
+//把x附近的点到k的距离更新，压入heap
+//用boolean visited[]记录这个点是否遇到过，遇到过就不处理了，用dis[]记录每个到点x的距离
